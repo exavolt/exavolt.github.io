@@ -4,7 +4,9 @@ date = 2024-06-20T02:54:27Z
 draft = false
 +++
 
-When developing a Flutter app, there might be a need to display data that are not instantly available. This data needs to be prepared asynchronously to prevent freezing of the app. And while the data is being prepared, we want to display an indicator so that users know that their data is being loaded.
+When developing a Flutter app, there might be a need to display data that are not instantly available. This data needs to be prepared asynchronously to prevent freezing of the app. And while the data is being prepared, we want to display an indicator so the user knows that their data is being loaded.
+
+![image](images/loading-future.png#center)
 
 Fortunately, the Flutter framework has `FutureBuilder` widget that fits well for this use case.
 
