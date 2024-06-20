@@ -8,7 +8,7 @@ When developing a Flutter app, there might be a need to display data that are no
 
 Fortunately, the Flutter framework has `FutureBuilder` widget that fits well for this use case.
 
-The official documentation does provide explanations on how to use the `FutureBuilder`, but I find that turning it into a set of practical rules makes it easier to follow.
+The [official documentation](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html) does provide explanations on how to use the `FutureBuilder`, but I find that turning it into a set of practical rules makes it easier to follow.
 
 ## The problematic usage
 
