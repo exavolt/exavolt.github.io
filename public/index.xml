@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>exavolt&#39;s rambling</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on exavolt&#39;s rambling</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 02:54:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use Flutter’s FutureBuilder properly</title>
-      <link>http://localhost:1313/posts/flutter-how-to-use-futurebuilder-properly/</link>
+      <link>https://example.org/posts/flutter-how-to-use-futurebuilder-properly/</link>
       <pubDate>Thu, 20 Jun 2024 02:54:27 +0000</pubDate>
-      <guid>http://localhost:1313/posts/flutter-how-to-use-futurebuilder-properly/</guid>
+      <guid>https://example.org/posts/flutter-how-to-use-futurebuilder-properly/</guid>
       <description>When developing a Flutter app, there might be a need to display data that are not instantly available. This data needs to be prepared asynchronously to prevent freezing of the app. And while the data is being prepared, we want to display an indicator so that users know that their data is being loaded.
 Fortunately, the Flutter framework has FutureBuilder widget that fits well for this use case.
 The official documentation does provide explanations on how to use the FutureBuilder, but I find that turning it into a set of practical rules makes it easier to follow.</description>
