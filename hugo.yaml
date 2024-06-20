@@ -1,0 +1,17 @@
+baseURL: https://exavolt.github.io/
+languageCode: en-us
+title: exavolt's rambling
+theme: hugo-PaperMod
+
+params:
+  assets:
+    disableHLJS: true
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    # noClasses: false
+    style: github-dark
