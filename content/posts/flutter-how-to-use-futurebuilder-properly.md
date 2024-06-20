@@ -44,7 +44,7 @@ In the example above, depending on the implementation of `fetchProductList`, the
 
 ## My rules to reliably utilize FutureBuilders
 
-1. Make the widget a `StatefulWidget` because a `FutureBuilder` can only work in a `StatefulWidget` widget
+1. Make the widget a `StatefulWidget` because a `FutureBuilder` can only work inside a `StatefulWidget` widget
 2. Declare the future as an instance variable (a.k.a. property, attribute, member) of the state class
 3. Obtain the future in the `initState` method, never during the `build`
 4. Use the declared instance variable as the parameter for the `FutureBuilder` in the `build` method
