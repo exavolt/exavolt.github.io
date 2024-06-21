@@ -1,0 +1,138 @@
++++
+title = 'Modularizing an app'
+date = 2023-12-18T16:50:40Z
+draft = true
++++
+
+Why do we want modularize our apps? Jump to the last section of this article for the rationale.
+
+Imagine we have a two app projects. One of them is a task management app (`tasker`) while the other is a chat app (`messenger`).
+
+We have this for the `tasker` app:
+
+```
+.
+├── models
+│   ├── user_model.dart
+│   └── task_model.dart
+├── repositories
+│   ├── user_repository.dart
+│   └── task_repository.dart
+├── views
+│   ├── login_view.dart
+│   └── task_view.dart
+└── services
+    ├── auth_service.dart
+    └── task_service.dart
+```
+
+While the `messenger` app goes like this:
+```
+.
+├── models
+│   ├── user_model.dart
+│   └── chat_model.dart
+├── repositories
+│   ├── user_repository.dart
+│   └── chat_repository.dart
+├── views
+│   ├── login_view.dart
+│   └── chat_view.dart
+└── services
+    ├── auth_service.dart
+    └── chat_service.dart
+```
+
+Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_programming). The reason is because they group together various business into folders, e.g., in the folder `repositories` we can find `user_repository` and `chat_repository` which both are coming from two different business domains.
+
+To make them modular, we must first map the business domains so that we can draw [the boundaries between various concerns](https://en.wikipedia.org/wiki/Separation_of_concerns). Each module will have a **single responsibilty** for a single concern or a single business domain (it can be hierarchical though, e.g., auth module can be split into smaller sub-modules internally).
+
+> A program that embodies separation-of-concerns well is called a modular program.
+
+We can start by things that are common in above projects. Looking at the both apps, we can see that they share the same concern, which is the authentication. The usual way to implement authentication in different apps like above would most likely through [copy-paste](https://en.wikipedia.org/wiki/Copy-and-paste_programming) as the business around authentication across apps are roughly the same.
+
+> Modularity, and hence separation of concerns, is achieved by encapsulating information inside a section of code that has a well-defined interface.
+
+The parts of the apps other than the authentication module don't need to know the details about how the authentication works, which remote API it uses, how and where the user data related to authentication is stored, session management (refresh token), etc. We can hide these details. We just need to define a well-defined interface so that other part of the apps to access information managed by the authentication module. Examples of the interface would be to check whether a user is signed in and to get information about signed in user.
+
+Thus, we can put all business related to authentication into its own module, e.g., `auth`. The `auth` module should contain everything related to authentication, that includes data structures, services, views, and assets.
+
+```
+.
+└── auth                            # the module. Contains all auth-related.
+    ├── auth_login_view.dart
+    ├── auth_service.dart           # other modules go through this service to access auth-related data and functionality, i.e., this is the module's interface
+    ├── auth_user_model.dart        # from models/user_model.dart. the primary entity in auth is User
+    └── auth_user_repository.dart
+```
+
+Or if we want the structure to be more explicit:
+
+```
+.
+└── auth
+    ├── models                      # more like entities. Contains all auth-related entities.
+    │   └── auth_user_model.dart
+    ├── views                       # Contains all auth-related views.
+    │   ├── auth_login_view.dart
+    │   └── auth_signup_view.dart
+    └── services                    # Contains all auth-related services (business logics).
+        ├── repositories
+        │   └── auth_user_repository.dart
+        └── auth_service.dart
+```
+
+If we look at the structure above, it's like a module is a small app. Well, we can think it like that. Read on for more about this.
+
+By putting everything into a single package (folder), we have turned it into a reusable module. We can even put this module into a repository or package it and publish it somewhere so it can be reused by others.  
+
+Applying it to the `tasker` project:
+
+```
+.
+├── app         # app's entry point and as the integrator module
+│   ├── views
+│   │   └── app_view.dart
+│   └── services
+│       └── app_service.dart
+├── auth        # Our auth module. Could be placed locally and use import redirection, symlink, or git submodule, or import published package
+└── tasker      # Here we've turned the app's main feature as a module
+    ├── models
+    │   ├── tasker_task_model.dart
+    ├── views
+    │   ├── tasker_task_list_view.dart
+    │   └── tasker_task_detail_view.dart
+    └── services
+        ├── repositories
+        │   └── tasker_task_repository.dart
+        └── tasker_service.dart
+```
+
+The same can be applied to the messenger app project. In fact, we can combine it with the `tasker` module without ~~creating chaos~~ increasing the complexity by much. This is how we create a "superapp", i.e, an app that comprise of smaller "apps":
+
+```
+.
+├── app         # the superapp
+│   ├── views
+│   │   ├── app_home_page.dart
+│   │   └── app_view.dart
+│   └── services
+│       └── app_service.dart
+├── auth
+├── messenger
+├── tasker
+...
+└── <more modules>
+```
+
+## Takeaways
+
+With a proper modularization, we can just build various modules for different business domains, and then, depending on the demand or direction, we can just combine these (reusable) modules to build application(s). It means that modularization could **facilitate development agility**.
+
+In a very large app, each module can be assigned to different developers, tribes / squads which are usually already split by business domains. A squad is usually responsible for one or more modules based on its domain(s) which means **feature ownerships are more indicative** through project structure. This is related with the next point.
+
+By putting each business domain into its own folder / package, it should make it easier to detect cross-domain business to prevent blurring the separation of concerns. For example, I want to implement user story in the messenger app. We might thought to update user data in `auth` to add story attribute. But as story is not related to authentication, it's better to create a new module that handles stories, and keep the `auth` module focused on authentication. If we are strict on respecting concern boundaries like this, it would **increase our codebase maintainability**.
+
+Through modularization, it makes it easier to minimize the interface (interface here is API -- package API and interprocess API) exposed by our modules. **Smaller, well-defined interface means less bugs, less maintenance burden, more maintainability**.
+
+While the example is for Flutter apps, the same modularization can be applied to other languages and frameworks, including for backend services. Modularization in backend services would make it **easier to transition from monolithic to microservices**.
