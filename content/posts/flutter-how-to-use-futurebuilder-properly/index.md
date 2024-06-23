@@ -4,17 +4,17 @@ date = 2024-06-20T02:54:27Z
 draft = false
 +++
 
-When developing a Flutter app, there might be a need to display data that are not instantly available. This data needs to be prepared asynchronously to prevent freezing of the app. And while the data is being prepared, we want to display an indicator so the user knows that their data is being loaded.
+When developing a Flutter app, there might be a need to display data that is not instantly available. This data needs to be prepared asynchronously to prevent freezing of the app. And while the data is being prepared, we want to display an indicator so the user knows that their data is being loaded.
 
 ![image](images/loading-future.png#center)
 
 Fortunately, the Flutter framework has `FutureBuilder` widget that fits well for this use case.
 
-The [official documentation](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html) does provide explanations on how to use the `FutureBuilder`, but I find that turning it into a set of practical rules makes it easier to follow.
+The [official documentation](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html) does provide explanations on how to use the `FutureBuilder`, but I find that turning it into a set of practical rules makes it easier to follow especially to avoid the misusages.
 
 ## The problematic usage
 
-The `FutureBuilder` has some requirements which if not satisfied it won't work correctly. The following is an example widget that utilizes a `FutureBuilder` the wrong way. While it might work in some cases, it might cause issues in other cases. Can you spot the where the part that might cause problems?
+The `FutureBuilder` has some requirements that if not satisfied it won't work correctly. The following is an example widget that utilizes a `FutureBuilder` the wrong way. While it might work in some cases, it might cause issues in other cases. Can you spot where the part that might cause problems?
 
 ```dart
 class ShowcaseView extends StatelessWidget {
@@ -35,9 +35,9 @@ class ShowcaseView extends StatelessWidget {
 
 The part that might cause problems is where the future is obtained, that is within the `build` method.
 
-But why it's wrong to obtain or create the future during `build`?
+But why it's wrong to obtain or create the future during the `build`?
 
-In the example above, depending on the implementation of `fetchProductList`, the future might get recreated when the widget gets rebuilt. Recreating a future on every build might cause some problems:
+In the example above, depending on the implementation of `fetchProductList`, the future might get recreated everytime the widget gets rebuilt. Recreating a future on every build might cause some problems:
 
 - The widget will simply not work, i.e., the data from the completed future will never get displayed because the future keeps being recreated
 - Unnecessarily wasting server's resources if the future involves fetching data from the server
@@ -140,5 +140,7 @@ In the example above, depending on the implementation of `fetchProductList`, the
     ```
     
 6. If the state is listening to a listenable, determine whether a value change would require future recreation.
+
+---
 
 That's all. The above rules should have covered common usages of `FutureBuilder`.
