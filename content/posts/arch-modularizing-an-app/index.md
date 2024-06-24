@@ -2,6 +2,7 @@
 title = 'Modularizing an app'
 date = 2023-12-18T16:50:40Z
 draft = false
+lang = 'en-US'
 +++
 
 Why do we want modularize our apps? Jump to the last section of this article for the rationale.
