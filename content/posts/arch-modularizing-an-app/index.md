@@ -6,6 +6,8 @@ draft = true
 
 Why do we want modularize our apps? Jump to the last section of this article for the rationale.
 
+---
+
 Imagine we have a two app projects. One of them is a task management app (`tasker`) while the other is a chat app (`messenger`).
 
 We have this for the `tasker` app:
@@ -45,6 +47,8 @@ While the `messenger` app goes like this:
 
 Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_programming). The reason is because they group together various business into folders, e.g., in the folder `repositories` we can find `user_repository` and `chat_repository` which both are coming from two different business domains.
 
+---
+
 To make them modular, we must first map the business domains so that we can draw [the boundaries between various concerns](https://en.wikipedia.org/wiki/Separation_of_concerns). Each module will have a **single responsibilty** for a single concern or a single business domain (it can be hierarchical though, e.g., auth module can be split into smaller sub-modules internally).
 
 > A program that embodies separation-of-concerns well is called a modular program.
@@ -59,32 +63,23 @@ Thus, we can put all business related to authentication into its own module, e.g
 
 ```
 .
-└── auth                            # the module. Contains all auth-related.
-    ├── auth_login_view.dart
-    ├── auth_service.dart           # other modules go through this service to access auth-related data and functionality, i.e., this is the module's interface
-    ├── auth_user_model.dart        # from models/user_model.dart. the primary entity in auth is User
-    └── auth_user_repository.dart
-```
-
-Or if we want the structure to be more explicit:
-
-```
-.
-└── auth
+└── auth                            # the module. Contains everything auth-related.
     ├── models                      # more like entities. Contains all auth-related entities.
-    │   └── auth_user_model.dart
+    │   └── auth_user_model.dart    # from models/user_model.dart. the primary entity in auth is User
     ├── views                       # Contains all auth-related views.
     │   ├── auth_login_view.dart
     │   └── auth_signup_view.dart
     └── services                    # Contains all auth-related services (business logics).
         ├── repositories
         │   └── auth_user_repository.dart
-        └── auth_service.dart
+        └── auth_service.dart       # This is the entry point for other modules to integrate with auth service
 ```
 
 If we look at the structure above, it's like a module is a small app. Well, we can think it like that. Read on for more about this.
 
-By putting everything into a single package (folder), we have turned it into a reusable module. We can even put this module into a repository or package it and publish it somewhere so it can be reused by others.  
+By putting everything into a single package (folder), we have turned it into a reusable module. We can even put this module into a repository or package it and publish it somewhere so it can be reused by others.
+
+The key here is that `auth` module must not contain other domain's business, e.g., it must not contain things like assigned tasks or chat messages.
 
 Applying it to the `tasker` project:
 
@@ -125,7 +120,7 @@ The same can be applied to the messenger app project. In fact, we can combine it
 └── <more modules>
 ```
 
-## Takeaways
+---
 
 With a proper modularization, we can just build various modules for different business domains, and then, depending on the demand or direction, we can just combine these (reusable) modules to build application(s). It means that modularization could **facilitate development agility**.
 
