@@ -25,7 +25,7 @@ Sure, environment managers provided by various languages, like `pyenv` `nvm` `gv
 
 Fortunately, that technology already existed from a few years back, in form of something called VSCode Dev Container. It’s working exactly as described above.
 
-[VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. We define the environment we want as a Dockerfile and through a YAML file.
+[VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. We define the environment we want as a Dockerfile and through a ~~YAML~~ JSON file.
 
 ---
 
