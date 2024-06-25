@@ -13,12 +13,12 @@ A few years back, when I was working on various projects, I felt that maintainin
 
 Imagine something like this: we can create the definition of development environment for every project. Through this specification, we can specify the tools and versions required by that project, which might be different from one to another. And when I open a project, something will set up its environment isolated from other projects and the host system.
 
-If we can have something like that, it will be very helpful when moving between computers, and for sharing it with other developers working on the project. Gone the hassles of setting up the environments.
+If we can have something like that, it will be very helpful when moving between computers, and for sharing the environments with other developers working on the project. Gone are the hassles of setting up environments.
 
 Sure, environment managers provided by various languages, like `pyenv` `nvm` `gvm`, do help. But they missed one or more of the following requirements: 
 
-- Language agnostic with possibility of combining various languages and tools
-- Complete environment rather than just around a language
+- Language agnostic with possibility of combining various languages
+- Complete environment rather than just language-specific tools
 - Machine-readable environment specification so that we don't need to specify it in the README
 
 ---
@@ -49,4 +49,4 @@ Fortunately, that technology already existed from a few years back, in form of s
 
 ---
 
-Dev Container have tremendously helped me on working with various projects with different stacks. When I want to work on a new project, or experiment on new techs, I just need to create a folder and then create a container for it based on provided base images.
+Dev Container have tremendously helped me on working with various projects with different stacks. When I need to work on a new project, or experiment on new techs, I just need to create a folder and then create a container for it based on common base images.
