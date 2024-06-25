@@ -50,7 +50,7 @@ Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_p
 
 ---
 
-To make them modular, we must first map the business domains so that we can draw [the boundaries between various concerns](https://en.wikipedia.org/wiki/Separation_of_concerns). Each module will have a **single responsibilty** for a single concern or a single business domain (it can be hierarchical though, e.g., auth module can be split into smaller sub-modules internally).
+To make them modular, we must first map the business domains so that we can draw [the boundaries between various concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) (coordinate with product manager or product owner so that the domain mapping will match). Each module will have a **single responsibilty** for a single concern or a single business domain (it can be hierarchical though, e.g., auth module can be split into smaller sub-modules, e.g., `oauth2`, `webauthn`).
 
 > A program that embodies separation-of-concerns well is called a modular program.
 
