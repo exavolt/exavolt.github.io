@@ -54,13 +54,13 @@ To make them modular, we must first map the business domains so that we can draw
 
 > A program that embodies separation-of-concerns well is called a modular program.
 
-We can start by things that are common in above projects. Looking at the both apps, we can see that they share the same concern, which is the authentication. The usual way to implement authentication in different apps like above would most likely through [copy-paste](https://en.wikipedia.org/wiki/Copy-and-paste_programming) as the business around authentication across apps are roughly the same.
+We can start by things that are common in above projects. Looking at the both apps, we can see that they share the same concern, which is the authentication and authorization (auth). The usual way to implement auth in different apps like above would most likely through [copy-paste](https://en.wikipedia.org/wiki/Copy-and-paste_programming) as the business around auth across apps are roughly the same.
 
 > Modularity, and hence separation of concerns, is achieved by encapsulating information inside a section of code that has a well-defined interface.
 
-The parts of the apps other than the authentication module don't need to know the details about how the authentication works, which remote API it uses, how and where the user data related to authentication is stored, session management (refresh token), etc. We can hide these details. We just need to define a well-defined interface so that other part of the apps to access information managed by the authentication module. Examples of the interface would be to check whether a user is signed in and to get information about signed in user.
+The parts of the apps other than the auth module don't need to know the details about how the auth works, which remote API it uses, how and where the user data related to auth is stored, session management (refresh token), etc. We can hide these details. We just need to define a well-defined interface so that other part of the apps to access information managed by the auth module. Examples of the interface would be to check whether a user is signed in and to get information about signed in user.
 
-Thus, we can put all business related to authentication into its own module, e.g., `auth`. The `auth` module should contain everything related to authentication, that includes data structures, services, views, and assets.
+Thus, we can put all business related to auth into its own module, e.g., `auth`. The `auth` module should contain everything related to auth, that includes data structures, services, views, and assets.
 
 ```
 .
@@ -127,7 +127,7 @@ With a proper modularization, we can just build various modules for different bu
 
 In a very large app, each module can be assigned to different developers, tribes / squads which are usually already split by business domains. A squad is usually responsible for one or more modules based on its domain(s) which means **feature ownerships are more indicative** through project structure. This is related with the next point.
 
-By putting each business domain into its own folder / package, it should make it easier to detect cross-domain business to prevent blurring the separation of concerns. For example, I want to implement user story in the messenger app. We might thought to update user data in `auth` to add story attribute. But as story is not related to authentication, it's better to create a new module that handles stories, and keep the `auth` module focused on authentication. If we are strict on respecting concern boundaries like this, it would **increase our codebase maintainability**.
+By putting each business domain into its own folder / package, it should make it easier to detect cross-domain business to prevent blurring the separation of concerns. For example, I want to implement user story in the messenger app. We might thought to update user data in `auth` to add story attribute. But as story is not related to auth, it's better to create a new module that handles stories, and keep the `auth` module focused on authentication and authorization. If we are strict on respecting concern boundaries like this, it would **increase our codebase maintainability**.
 
 Through modularization, it makes it easier to minimize the interface (interface here is API -- package API and interprocess API) exposed by our modules. **Smaller, well-defined interface means less bugs, less maintenance burden, more maintainability**.
 
