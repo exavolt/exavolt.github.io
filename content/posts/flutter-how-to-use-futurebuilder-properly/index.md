@@ -43,7 +43,7 @@ In the example above, depending on the implementation of `fetchProductList`, the
 - The widget will simply not work, i.e., the data from the completed future will never get displayed because the future keeps being recreated
 - Unnecessarily wasting server's resources if the future involves fetching data from the server
 - Unnecessarily drain device's battery if the future involves some heavy, on-device, computations
-- The last two above can cause bad user experiences
+- All these above can cause bad user experiences
 
 ## My rules to reliably utilize FutureBuilders
 
