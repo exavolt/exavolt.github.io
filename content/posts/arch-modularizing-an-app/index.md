@@ -46,7 +46,7 @@ While the `messenger` app goes like this:
     └── chat_service.dart
 ```
 
-Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_programming). The reason is because they group together various business into folders, e.g., in the folder `repositories` we can find `user_repository` and `chat_repository` which both are coming from two different business domains.
+Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_programming). The reason is because they group together various business into folders, e.g., in the folder `repositories` we can find `user_repository` and `chat_repository` which both are coming from two different, unrelated business domains.
 
 ---
 
@@ -91,8 +91,8 @@ Applying it to the `tasker` project:
 │   │   └── app_view.dart
 │   └── services
 │       └── app_service.dart
-├── auth        # Our auth module. Could be placed locally and use import redirection, symlink, or git submodule, or import published package
-└── tasker      # Here we've turned the app's main feature as a module
+├── auth        # Our auth module. It could be inlined in the project, use import redirection, symlink, or git submodule, or import the published package
+└── tasker      # Here, we've turned the app's main feature as a module
     ├── models
     │   ├── tasker_task_model.dart
     ├── views
@@ -108,15 +108,15 @@ The same can be applied to the messenger app project. In fact, we can combine it
 
 ```
 .
-├── app         # the superapp
+├── app         # the superapp (main module)
 │   ├── views
 │   │   ├── app_home_page.dart
 │   │   └── app_view.dart
 │   └── services
 │       └── app_service.dart
-├── auth
-├── messenger
-├── tasker
+├── auth        # core module
+├── messenger   # feature / business module
+├── tasker      # feature / business module
 ...
 └── <more modules>
 ```
