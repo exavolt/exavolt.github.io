@@ -3,6 +3,7 @@ title = 'Containerized development environment'
 date = 2022-08-21T14:49:25Z
 draft = false
 lang = 'en-US'
+tags = ['development environment', 'containerized environment', 'docker']
 +++
 
 A few days ago I was asked by a team member about which Go version to install to work on the project. Then it came to my mind that I no longer care about setting up my development environments. My development environments are disposable and recreate-able within seconds, or minutes, well, depending on the internet connection.

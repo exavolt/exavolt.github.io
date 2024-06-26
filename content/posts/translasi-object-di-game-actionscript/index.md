@@ -3,6 +3,7 @@ title = 'Translasi Object di game (ActionScript)'
 date = 2012-02-18T09:03:24Z
 draft = false
 lang = 'id'
+tags = ['game programming', 'actionscript']
 +++
 
 Di sini kita akan membahas seputar pergerakan object di dalam game yang digerakkan dengan cara mengklik titik tujuan kemana object harus bergerak. Cara input seperti ini banyak digunakan untuk game-game RTS dan RPG.
