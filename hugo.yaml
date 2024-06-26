@@ -3,10 +3,6 @@ languageCode: en-us
 title: exavolt's personal notes
 theme: hugo-PaperMod
 
-params:
-  assets:
-    disableHLJS: true
-
 markup:
   highlight:
     # anchorLineNos: true
@@ -16,10 +12,17 @@ markup:
     # noClasses: false
     style: github-dark
 
-
 menu:
   main:
     - identifier: github
       name: My GitHub
       url: https://github.com/exavolt
       weight: 30
+
+params:
+  assets:
+    disableHLJS: true
+  homeInfoParams:
+    Title: "exavolt's personal notes"
+    Content: |
+      Welcome to exavolt's personal notes
