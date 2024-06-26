@@ -1,6 +1,6 @@
 baseURL: https://exavolt.github.io/
 languageCode: en-us
-title: exavolt's ramblings
+title: exavolt's personal notes
 theme: hugo-PaperMod
 
 params:

@@ -35,7 +35,7 @@ Fortunately, that technology already existed from a few years back, in form of s
 - Isolated from host and from other projects’ environment — not affecting each-other by default
 - Self-contained including tools and VSCode extensions
     - Tools’ version are pinned
-    - Extensions are nicely set up by default on official base containers
+    - Extensions are nicely set up by default on some official base containers
 - Destroying an environment is easy, switching between runtime versions, including to experimental versions, is easy. Recreating is easy.
 - Great for experimenting with development with various techs
 - Reduce cognitive loads and setting up hassles — the definition is the documentation
