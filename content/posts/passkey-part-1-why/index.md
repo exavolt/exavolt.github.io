@@ -32,7 +32,7 @@ Perlu dicatat bahwa data kita di sebuah layanan yang datanya bocor, tetap akan b
 
 ## Privasi yang lebih baik
 
-Salah satu metode login yang tanpa kata sandi (*passwordless*) adalah menggunakan *single-sign on* (SSO). Biasanya kita jumpai dalam bentuk tombol dengan tulisan “Login with …” atau “Sign in with ….”
+Salah satu metode login yang tanpa kata sandi (*passwordless*) adalah menggunakan *single sign-on* (SSO). Biasanya kita jumpai dalam bentuk tombol dengan tulisan “Login with …” atau “Sign in with ….”
 
 SSO membantu pengguna untuk tidak perlu membuat password baru atau menggunakan password yang sama di berbagai layanan.
 
