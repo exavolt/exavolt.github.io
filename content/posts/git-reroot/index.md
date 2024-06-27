@@ -67,6 +67,6 @@ It does the following:
 - First, it checks out the default branch (`master` in this case)
 - Replaces the reference to `XRev` with `RRev`
 - Rewrites the history
-- Removes the temporary references
+- Removes temporary references
 - Deletes the now unused `reroot` branch
 
