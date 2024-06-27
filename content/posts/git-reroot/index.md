@@ -27,7 +27,7 @@ master: O-----X--------H
 We will need to get the commits
 
 - `ORev` is the commit of `O` -- use the command `git rev-list --max-parents=0 HEAD`
-- `XRev` is the commit hash of `X`. You will need to use `git log` or a Git GUI to find the commit.
+- `XRev` is the commit of `X`. You will need to use `git log` or a Git GUI to find the commit.
 
 ```shell
 $ git checkout -b reroot <XRev>
