@@ -37,7 +37,7 @@ $ git commit --amend -m "My new initial commit"
 
 The above commands are doing the following:
 
-- First, it checks out `X` into a new brand named `reroot`
+- First, it checks out `X` into a new branch named `reroot`
 - Resets the original commit without reseting the files and index
 - Creates a new commit with files from commit `X`
 
