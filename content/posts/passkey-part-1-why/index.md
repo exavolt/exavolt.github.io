@@ -54,4 +54,4 @@ Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, atau wa
 
 ## _"It just works"_
 
-Semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak perlu install apa-apa lagi.
+Hampir semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak perlu install apa-apa lagi.
