@@ -6,7 +6,7 @@ draft: false
 
 Alasan-alasan untuk kita sebagai pengguna dan secara tidak langsung menjadi alasan untuk para penyedia layanan untuk menggunakan dan mengimplementasi Passkey.
 
-## Tahan terhadap _phising_
+## Tahan terhadap _phishing_
 
 Keunggulan utama dari Passkey adalah ketahanan terhadap *phishing* (*phishing-resistant)*, dan *phishing* merupakan alasan utama dari munculnya Passkey.
 
