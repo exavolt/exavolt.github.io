@@ -1,5 +1,5 @@
 +++
-title = 'Translasi Object di game (ActionScript)'
+title = 'Dasar translasi object di game (ActionScript)'
 date = 2012-02-18T09:03:24Z
 draft = false
 lang = 'id'
@@ -132,6 +132,6 @@ public function moveTick(deltaTime:Number):void {
 
 Di atas adalah dasar untuk menggerakkan object. Dasar ini bisa diterapkan ke dimensi lain (3D) dengan menggunakan tipe data yang sesuai.
 
-Perlu dicatat bahwa yang disampaikan di atas ini menggunakan pergerakan linear, tanpa akselerasi dan decelerasi, sehingga akan terlihat tidak natural.
+Perlu dicatat bahwa yang disampaikan di atas ini menggunakan pergerakan linear, tanpa akselerasi dan deselerasi, sehingga akan terlihat tidak natural.
 
-Apabila object bergerak mengikuti waypoints, akan perlu pertimbangan supaya pergerakan konsisten terlihat kontinyu saat object melewati sebuah waypoint.
+Apabila object bergerak mengikuti waypoints, akan perlu pertimbangan supaya pergerakan kontinyu saat object melewati sebuah waypoint.
