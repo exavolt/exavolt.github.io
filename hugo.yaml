@@ -3,6 +3,14 @@ languageCode: en-us
 title: exavolt's personal notes
 theme: PaperMod
 
+# languages:
+#   en:
+#     languageName: "EN"
+#     weight: 1
+#   id:
+#     languageName: "ID"
+#     weight: 2
+
 markup:
   highlight:
     # anchorLineNos: true
