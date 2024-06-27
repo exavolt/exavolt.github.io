@@ -50,7 +50,7 @@ Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan 
 
 Walaupun memberi tambahan lapisan keamanan, 2FA / MFA ini relatif ribet dalam prakteknya, terutama ketika kita harus input kode secara manual dalam waktu yang terbatas.
 
-Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, atau wajah kita, atau PIN, sebagai verifikasi ketika kita akan login sehingga terasa lebih _"seamless"_.
+Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, atau wajah kita, atau PIN seperti biasanya ketika kita membuka perangkat, sebagai verifikasi ketika kita akan login sehingga terasa lebih _"seamless"_.
 
 ## _"It just works"_
 
