@@ -5,9 +5,9 @@ draft: false
 language: id
 ---
 
-Passkey terbilang cukup baru dengan 
+Passkey terbilang cukup baru dengan pengumuman baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
 
-Alasan-alasan untuk kita sebagai pengguna dan secara tidak langsung menjadi alasan untuk para penyedia layanan untuk menggunakan dan mengimplementasi Passkey.
+Di tulisan ini saya akan coba memberika beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
 
 ## Tahan terhadap _phishing_
 
@@ -53,8 +53,13 @@ Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan 
 
 Walaupun memberi tambahan lapisan keamanan, 2FA / MFA ini relatif ribet dalam prakteknya, terutama ketika kita harus input kode secara manual dalam waktu yang terbatas.
 
-Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, atau wajah kita, atau PIN seperti biasanya ketika kita membuka perangkat, sebagai verifikasi ketika kita akan login sehingga terasa lebih _"seamless"_.
+Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, atau wajah kita, atau PIN seperti biasanya ketika kita membuka perangkat, sebagai verifikasi ketika kita akan login sehingga terasa lebih mulus (_"seamless"_).
 
 ## _"It just works"_
 
 Hampir semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak perlu install apa-apa lagi.
+
+Salah satu alasan kenapa _"it just works"_ walaupun Passkey baru saja muncul adalah
+
+- Didukung oleh vendor OS dan perangkat besar: Apple, Google, Microsoft
+- Protocol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah dikembangkan sejak 2016
