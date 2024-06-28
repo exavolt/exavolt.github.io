@@ -63,3 +63,11 @@ Salah satu alasan kenapa _"it just works"_ walaupun Passkey baru saja muncul ada
 
 - Didukung oleh vendor-vendor besar sistem operasi (OS), peramban (browser), dan perangkat: Apple, Google, Microsoft
 - Protocol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi sebagai standar mulai 2019
+
+---
+
+Opsi memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai pengembang sistem, untuk bisa mulai meninggalkan password.
+
+Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey daripada password di website atau app, manfaatkanlah.
+
+Sebagai pengembang sistem, sediakanlah opsi untuk pengguna menggunakan Passkey.
