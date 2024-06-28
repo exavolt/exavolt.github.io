@@ -66,7 +66,7 @@ Salah satu alasan kenapa _"it just works"_ walaupun Passkey baru saja muncul ada
 
 ---
 
-Opsi memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai pengembang sistem, untuk bisa mulai meninggalkan password.
+Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai pengembang sistem, untuk bisa mulai meninggalkan password.
 
 Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey daripada password di website atau app, manfaatkanlah.
 
