@@ -27,7 +27,11 @@ Dari situ tinggal pengaplikasian ke bisnis model.
 
 ---
 
-Perlu diingat bahwa tidak semua aplikasi mendukung IDN sehingga walaupun di browser terlihat seperti berikut
+Kesimpulannya, gunakan library / package IDN / IDNA, dan bukan UNICODE, untuk mengolah nama domain yang menggunakan karakter non-Latin. Library IDN / IDNA sudah menyediakan fungsi untuk konversi dari UNICODE ke Punycode dan sebaliknya.
+
+---
+
+Catatan tambahan: perlu diingat bahwa tidak semua aplikasi mendukung IDN sehingga walaupun di browser terlihat seperti berikut
 
 ![Untitled](images/kr.jpg#center)
 
