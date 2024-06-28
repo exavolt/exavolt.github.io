@@ -7,7 +7,7 @@ language: id
 
 Passkey terbilang cukup baru dengan pengumuman baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
 
-Di tulisan ini saya akan coba memberika beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
+Di tulisan ini saya akan coba memberikan beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
 
 ## Tahan terhadap _phishing_
 

@@ -34,9 +34,7 @@ Fortunately, that technology already existed from a few years back, in form of s
 
 - Perfectly replicable development environment (almost) — making them easy to share
 - Isolated from host and from other projects’ environment — not affecting each-other by default
-- Self-contained including tools and VSCode extensions
-    - Tools’ version are pinned
-    - Extensions are nicely set up by default on some official base containers
+- Self-contained including tools and VSCode extensions which are installed by default or as addition when setting up the container
 - Destroying an environment is easy, switching between runtime versions, including to experimental versions, is easy. Recreating is easy.
 - Great for experimenting with development with various techs
 - Reduce cognitive loads and setting up hassles — the definition is the documentation
