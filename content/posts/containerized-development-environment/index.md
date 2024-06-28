@@ -42,7 +42,7 @@ Fortunately, that technology already existed from a few years back, in form of s
 ## Disadvantages
 
 - Requires Docker, VSCode and [Dev Container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). It might be supported by other IDEs.
-- It takes more disk usage as there will be copies of compilers, runtimes and other tools across environments. But this can be offseted by destroying unused environments.
+- It takes more disk space as there will be copies of compilers, runtimes and other tools across environments. But this can be offseted by destroying unused environments.
 - Larger memory usage
 - Sharing resources with the host machine or other virtualized / simulated environments usually require extra steps. But the upside, we will notice it well when a resource sharing is required
 
