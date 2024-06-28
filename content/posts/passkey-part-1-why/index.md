@@ -61,5 +61,5 @@ Hampir semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak p
 
 Salah satu alasan kenapa _"it just works"_ walaupun Passkey baru saja muncul adalah
 
-- Didukung oleh vendor OS dan perangkat besar: Apple, Google, Microsoft
-- Protocol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah dikembangkan sejak 2016
+- Didukung oleh vendor-vendor besar sistem operasi (OS), peramban (browser), dan perangkat: Apple, Google, Microsoft
+- Protocol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi sebagai standar mulai 2019
