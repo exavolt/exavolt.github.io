@@ -1,8 +1,11 @@
 ---
-title: 'Passkey - kenapa harus'
+title: 'Kenapa harus Passkey'
 date: 2024-06-27T08:46:31Z
 draft: false
+language: id
 ---
+
+Passkey terbilang cukup baru dengan 
 
 Alasan-alasan untuk kita sebagai pengguna dan secara tidak langsung menjadi alasan untuk para penyedia layanan untuk menggunakan dan mengimplementasi Passkey.
 
@@ -28,7 +31,7 @@ Dan perlu kita akui bahwa tidak semua penyedia layanan digital menjunjung tinggi
 
 Dengan menggunakan Passkey, tidak ada kata sandi kita yang disimpan di server. Artinya jika, amit-amit, data server layanan yang kita gunakan ini bocor, hacker tidak akan mendapatkan kata sandi kita.
 
-Perlu dicatat bahwa data kita di sebuah layanan yang datanya bocor, tetap akan bocor. Tapi dengan Passkey, akun kita di layanan lain akan jauh lebih aman dibanding kalau kita menggunakan kata sandi yang sama untuk berbagai layanan.
+Perlu dicatat bahwa data kita di sebuah layanan yang datanya bocor, data kita yang ikut bocor akan tetap akan ada kemungkinan tersebar. Tapi dengan Passkey, akun kita di layanan lain akan jauh lebih aman dibanding kalau kita menggunakan kata sandi yang sama untuk berbagai layanan.
 
 ## Privasi yang lebih baik
 
@@ -44,7 +47,7 @@ Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita
 
 Selain itu, data yang dipertukarkan cuma berupa “kunci acak” saja.
 
-## Lebih mudah daripada 2FA / MFA
+## Lebih _"seamless"_ daripada 2FA / MFA
 
 Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP), bisa melalui email, SMS, atau app khusus macam Google Authenticator.
 
