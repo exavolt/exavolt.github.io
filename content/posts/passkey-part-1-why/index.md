@@ -17,7 +17,7 @@ Tidak jarang kita menjumpai kasus akun yang “di-*hack*.” Nah, salah satu met
 
 *Phishing* dilakukan dengan mengirimkan link yang membuat target penasaran. “Cek ini deh. Ini beneran foto kamu bukan `<link>`.” Ketika link tersebut kita klik, kita akan diminta untuk login.
 
-Dengan kita login melalui link tadi, kita udah kena *phishing*. Kenapa? Karena website yang meminta login tersebut adalah website palsu yang dibikin sedemikian rupa sehingga mirip media sosial. Kata sandi (*password*) kita sudah disadap dan direkam di sistem si “*hacker*” saat kita mencoba login di website tersebut. Karena “*hacker*” ini punya kata sandi kita, mereka bisa login ke akun kita.
+Dengan kita login melalui link tadi, kita udah kena *phishing*. Kenapa? Karena website yang meminta login tersebut adalah website palsu yang dibikin sedemikian rupa sehingga mirip situs yang kita familiar. Kata sandi (*password*) kita sudah disadap dan direkam di sistem si “*hacker*” saat kita mencoba login di website tersebut. Karena “*hacker*” ini punya kata sandi kita, mereka bisa login ke akun kita.
 
 Bagaimana Passkey memberi solusi?
 
