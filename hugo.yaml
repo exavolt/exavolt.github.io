@@ -31,7 +31,6 @@ params:
   assets:
     disableHLJS: true
   homeInfoParams:
-    Title: "exavolt's personal notes"
+    Title: "Welcome to the darkside"
     Content: |
-      Welcome to exavolt's personal notes. I use this blog to share some of my
-      notes publicly.
+      ... or lightside if you switch the theme around.
