@@ -7,7 +7,7 @@ language: id
 
 Seperti biasa, di sebuah grup di Telegram ada diskusi. Ada yang sedang mengerjakan proyek portal untuk beberapa negara Asia dan *stuck*.
 
-Kendala yang dihadapi adalah bagaimana untuk melokalisasi URL, yaitu menampilkan URL yang nama sub-domainnya menggunakan karakter non-Latin menyesuaikan nama tenant. Asumsi awalnya adalah bahwa semua ini bisa teratasi dengan UNICODE terutama UTF-8.
+Kendala yang dihadapi adalah bagaimana untuk melokalisasi URL, yaitu menampilkan URL yang nama sub-domainnya menggunakan karakter non-Latin menyesuaikan nama tenant. Asumsi awalnya adalah bahwa semua ini bisa teratasi dengan UNICODE terutama UTF-8. Tetapi ternyata domain / hostname itu tidak mendukung UNICODE, karena hanya mendukung [karakter-karakter Latin / ASCII](https://en.wikipedia.org/wiki/Domain_name#Domain_name_syntax).
 
 Saya teringat kita saya sering berurusan dengan *handling* alamat email (untuk login dsb), bahwa ada prosedur khusus untuk mencocokkan alamat email yang dimasukkan pengguna dengan apa yang ada di database. Prosedur ini salah satunya dengan “mempersiapkan” ([stringprep](https://en.wikipedia.org/wiki/Nameprep)) bagian domain. Salah satu bagian prosedur normalisasi dari nama domain adalah dengan mengubah encoding apabila ada bagian yang menggunakan karakter non-Latin. Dan encoding ini tidak menggunakan UTF-8 atau standar UNICODE lain, tetapi menggunakan encoding tersendiri yang disebut [Punycode](https://en.wikipedia.org/wiki/Punycode). Pengaplikasian ke nama domain mengacu ke standar [Internationalized Domain Name (IDN)](https://en.wikipedia.org/wiki/Internationalized_domain_name).
 
