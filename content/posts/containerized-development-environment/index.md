@@ -24,7 +24,7 @@ Fortunately, that technology is already existed from a few years back, in form o
 
 [VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. It uses a JSON file (`devcontainer.json`) to define the environment for each project.
 
-We start by defining the base image, usually the base tech of the stack. We can pick one of various base techs available. Popular techs are officially provided including C++, Go, Python, NodeJS, Rust and more.
+We start by defining the base image (a Docker image), usually the base tech of the stack. We can pick one of various base techs available. Popular techs are officially provided including C++, Go, Python, NodeJS, Rust and more.
 
 ![image](images/01-pick-base.png#center)
 
@@ -33,6 +33,10 @@ We can then add additional features to be included in the environment, including
 ![image](images/02-select-features.png#center)
 
 If we require something that can't be provided through JSON, we can use our own Dockerfile to specify our custom image.
+
+The extension will prepare a remote environment based on the specification and connect the IDE with it. What we edit in VSCode are files located in the host OS, not in the container.
+
+For the actual guide, please visit the [official documentation](https://code.visualstudio.com/docs/devcontainers/tutorial).
 
 ---
 
