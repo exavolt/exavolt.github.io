@@ -16,17 +16,9 @@ Imagine something like this: we can create the definition of development environ
 
 If we can have something like that, it will be very helpful when moving between computers, and for sharing the environments with other developers working on the project. Gone are the hassles of setting up environments.
 
-Sure, environment managers provided by various languages, like `pyenv` `nvm` `gvm`, do help. But they missed one or more of the following requirements: 
-
-- Language agnostic with possibility of combining various languages
-- Complete environment rather than just language-specific tools
-- Machine-readable environment specification so we don't need to specify it in the README
-
 ---
 
-Fortunately, that technology already existed from a few years back, in form of something called VSCode Dev Container. It’s working exactly as described above.
-
-[VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. We define the environment we want as a Dockerfile and through a ~~YAML~~ JSON file.
+Fortunately, that technology is already existed from a few years back, in form of something called VSCode Dev Container. It’s working exactly as described above.
 
 ## How it works
 
@@ -36,33 +28,31 @@ We start by defining the base image, usually the base tech of the stack. We can 
 
 ![image](images/01-pick-base.png#center)
 
-We can then add additional features to be included in the environment, including combining three techs, e.g., Go, NodeJS, and MongoDB. In fact, we can add everything if it's needed by the project.
+We can then add additional features to be included in the environment, including combining multiple techs, e.g., Go, NodeJS, and MongoDB. In fact, we can add everything if it's needed by the project.
 
 ![image](images/02-select-features.png#center)
 
-If it's needed, we can also provide our own Dockerfile.
+If we require something that can't be provided through JSON, we can use our own Dockerfile to specify our custom image.
 
 ---
 
 ## Advantages
 
 - Perfectly replicable development environments (almost)
+  - including the tools, other techs, and extensions
   - making them easy to share
 - Isolated from host and from other projects’ environment
   - no need to dirty the host system
   - no need to update host's environment variables
-  - no need to hunt for files or environment variables when done with an environment
-- Self-contained including tools and VSCode extensions
-  - no need to follow some steps to install tools or extensions
+  - no need to hunt for files and environment variables when done with an environment
+- Automatic
+  - no need to follow some tedious steps to install tools or extensions
   - if a tool is needed, just add it into the definition and it will automatically be installed when the environment is rebuilt
-- Destroying an environment is easy, switching between runtime versions, including to experimental versions, is easy. Recreating is easy.
-- Great for experimenting with development with various techs
-- Reduce cognitive loads and setting up hassles — the definition is the documentation
 
 ## Disadvantages
 
 - Requires Docker, VSCode and [Dev Container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). It might be supported by other IDEs.
-- It takes more disk space as there will be copies of compilers, runtimes and other tools across environments. But this can be offseted by destroying unused environments.
+- It takes more disk space as there will be copies of compilers, runtimes and other tools across environments. But this can be offseted by destroying unused environments (easy and quick!).
 - Larger memory usage
 - Sharing resources with the host machine or other virtualized / simulated environments usually require extra steps. But the upside, we will notice it well when a resource sharing is required
 
