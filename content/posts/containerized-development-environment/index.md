@@ -6,13 +6,13 @@ lang = 'en-US'
 tags = ['development environment', 'containerized environment', 'docker']
 +++
 
-A few days ago I was asked by a team member about which Go version to install to work on the project. Then it came to my mind that I no longer care about setting up my development environments. My development environments are disposable and recreate-able within seconds, or minutes, well, depending on the internet connection.
+A few days ago I was asked by a team member about which Go version to install to work on the project. Then it hit me that I no longer cared about setting up my development environments, almost. Most of my development environments are replicable, disposable, and recreate-able within seconds.
 
 ---
 
-A few years back, when I was working on various projects, I felt that maintaining various versions of various tech stacks is a real pain. And after embracing Docker for containerized deployment, I wondered if we can have something similar for our development environments.
+A few years back, when I was working on various projects, I realized that dealing with various versions of various tech stacks was a real pain. And after embracing Docker for containerized deployment, I wondered if we can have something similar for our development environments.
 
-Imagine something like this: we can create the definition of development environment for every project. Through this specification, we can specify the tools and versions required by that project, which might be different from one to another. And when I open a project, something will set up its environment isolated from other projects and the host system.
+Imagine something like this: we can create the definition of development environment for every project. Through this specification, we can specify the tools and versions required by that project. And when I open a project, something will set up its environment isolated from other projects and the host system.
 
 If we can have something like that, it will be very helpful when moving between computers, and for sharing the environments with other developers working on the project. Gone are the hassles of setting up environments.
 
@@ -20,7 +20,7 @@ Sure, environment managers provided by various languages, like `pyenv` `nvm` `gv
 
 - Language agnostic with possibility of combining various languages
 - Complete environment rather than just language-specific tools
-- Machine-readable environment specification so that we don't need to specify it in the README
+- Machine-readable environment specification so we don't need to specify it in the README
 
 ---
 
@@ -28,13 +28,33 @@ Fortunately, that technology already existed from a few years back, in form of s
 
 [VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. We define the environment we want as a Dockerfile and through a ~~YAML~~ JSON file.
 
+## How it works
+
+[VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. It uses a JSON file (`devcontainer.json`) to define the environment for each project.
+
+We start by defining the base image, usually the base tech of the stack. We can pick one of various base techs available. Popular techs are officially provided including C++, Go, Python, NodeJS, Rust and more.
+
+![image](images/01-pick-base.png#center)
+
+We can then add additional features to be included in the environment, including combining three techs, e.g., Go, NodeJS, and MongoDB. In fact, we can add everything if it's needed by the project.
+
+![image](images/02-select-features.png#center)
+
+If it's needed, we can also provide our own Dockerfile.
+
 ---
 
 ## Advantages
 
-- Perfectly replicable development environment (almost) — making them easy to share
-- Isolated from host and from other projects’ environment — not affecting each-other by default
-- Self-contained including tools and VSCode extensions which are installed by default or as addition when setting up the container
+- Perfectly replicable development environments (almost)
+  - making them easy to share
+- Isolated from host and from other projects’ environment
+  - no need to dirty the host system
+  - no need to update host's environment variables
+  - no need to hunt for files or environment variables when done with an environment
+- Self-contained including tools and VSCode extensions
+  - no need to follow some steps to install tools or extensions
+  - if a tool is needed, just add it into the definition and it will automatically be installed when the environment is rebuilt
 - Destroying an environment is easy, switching between runtime versions, including to experimental versions, is easy. Recreating is easy.
 - Great for experimenting with development with various techs
 - Reduce cognitive loads and setting up hassles — the definition is the documentation
@@ -48,4 +68,12 @@ Fortunately, that technology already existed from a few years back, in form of s
 
 ---
 
-Dev Container have tremendously helped me on working with various projects with different stacks. When I need to work on a new project, or experiment on new techs, I just need to create a folder and then create a container for it based on common base images.
+## How I use Dev Container
+
+Dev Container have tremendously helped me on working with various projects with different stacks.
+
+All my projects, except mobile app projects, are dev-containerized. I haven’t installed Go tools, Python interpreter, NodeJS runtime, Rust tooling, etc. directly on my computer's OS. My computer's OS is relatively clean of dev tools. Well, except Dart / Flutter because I needed to install it in a non-containerized manner as it’s required for mobile dev.
+
+I’ve used dev environments to learn and experiment with various techs. When I want to learn a new tech, I just need to create a folder and then create a Dev Container for it. When I am done, cleaning it up is a breeze.
+
+Even when I am checking out other's project, I’d open it in a dev container even when the project is not originially dev-containerized.
