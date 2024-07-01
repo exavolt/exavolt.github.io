@@ -4,6 +4,8 @@ date: 2024-06-27T08:46:31Z
 draft: false
 lang: id
 slug: kenapa-harus-passkey
+cover:
+  image: passkeys-hero.png
 ---
 
 Passkey terbilang cukup baru dengan pengumuman baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
@@ -71,4 +73,4 @@ Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai p
 
 Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey alih-alih password di website atau aplikasi, manfaatkanlah.
 
-Sebagai pengembang sistem, sediakanlah opsi untuk pengguna menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan SSO.
+Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan SSO.

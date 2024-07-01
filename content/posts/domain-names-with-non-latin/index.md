@@ -6,6 +6,7 @@ lang: id
 slug: nama-domain-karakter-non-latin
 cover:
   image: images/drake.jpg
+  hiddenInSingle: true
 ---
 
 Seperti biasa, di sebuah grup di Telegram ada diskusi. Ada yang sedang mengerjakan proyek portal untuk beberapa negara Asia dan *stuck*.

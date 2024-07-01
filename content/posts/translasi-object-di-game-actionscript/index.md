@@ -6,6 +6,7 @@ lang: id
 tags: ['game programming', 'actionscript']
 cover:
   image: images/move-to-004.png
+  hiddenInSingle: true
 ---
 
 Di sini kita akan membahas seputar pergerakan object di dalam game yang digerakkan dengan cara mengklik titik tujuan kemana object harus bergerak. Cara input seperti ini banyak digunakan untuk game-game RTS dan RPG.
