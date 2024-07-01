@@ -24,13 +24,13 @@ Fortunately, that technology is already existed from a few years back, in form o
 
 [VSCode Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) utilizes Docker to create a containerized / isolated environment for every project. It uses a JSON file (`devcontainer.json`) to define the environment for each project.
 
-We start by defining the base image (a Docker image), usually the base tech of the stack. We can pick one of various base techs available. Popular techs are officially provided including C++, Go, Python, NodeJS, Rust and more.
+We start by defining the base image (a Docker image), usually the base tech of the stack. We can pick one of various base technologies available. Popular technologies are officially provided including C++, Go, Python, NodeJS, Rust and more.
 
-![image](images/01-pick-base.png#center)
+![A lot of base technologies are already available](images/01-pick-base.png#center)
 
-We can then add additional features to be included in the environment, including combining multiple techs, e.g., Go, NodeJS, and MongoDB. In fact, we can add everything if it's needed by the project.
+We can then add additional features to be included in the environment, including combining multiple technologies, e.g., Go, NodeJS, and MongoDB. In fact, we can add everything if it's needed by the project.
 
-![image](images/02-select-features.png#center)
+![Adding extra technologies and tools is one check away](images/02-select-features.png#center)
 
 If we require something that can't be provided through JSON, we can use our own Dockerfile to specify our custom image.
 
@@ -68,6 +68,6 @@ Dev Container have tremendously helped me on working with various projects with 
 
 All my projects, except mobile app projects, are dev-containerized. I haven’t installed Go tools, Python interpreter, NodeJS runtime, Rust tooling, etc. directly on my computer's OS. My computer's OS is relatively clean of dev tools. Well, except Dart / Flutter because I needed to install it in a non-containerized manner as it’s required for mobile dev.
 
-I’ve used dev environments to learn and experiment with various techs. When I want to learn a new tech, I just need to create a folder and then create a Dev Container for it. When I am done, cleaning it up is a breeze.
+I’ve used dev environments to learn and experiment with various technologies. When I want to learn a new tech, I just need to create a folder and then create a Dev Container for it. When I am done, cleaning it up is a breeze.
 
 Even when I am checking out other's project, I’d open it in a dev container even when the project is not originially dev-containerized.
