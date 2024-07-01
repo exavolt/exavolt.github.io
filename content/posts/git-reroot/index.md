@@ -1,10 +1,13 @@
-+++
-title = 'Git reroot'
-date = 2020-02-26T17:47:53Z
-draft = false
-lang = 'en-US'
-tags = ['git']
-+++
+---
+title: Git reroot
+date: 2020-02-26T17:47:53Z
+draft: false
+lang: en-US
+tags: ['git']
+cover:
+  image: banyan-tree.jpg
+  caption: Source https://www.pickpik.com/banyan-tree-tree-maui-hawaii-banyon-beach-70064
+---
 
 So, you have a pet project in a private repository. It turns out that the project could work as an open source project. When you looked into its history, you find some stuff that must not go public. You want to delete those early commits and keep recent commits.
 
