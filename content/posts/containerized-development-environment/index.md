@@ -12,7 +12,7 @@ A few days ago I was asked by a team member about which Go version to install to
 
 A few years back, when I was working on various projects, I realized that dealing with various versions of various tech stacks was a real pain. And after embracing Docker for containerized deployment, I wondered if we can have something similar for our development environments.
 
-Imagine something like this: we can create the definition of development environment for every project. Through this specification, we can specify the tools and versions required by that project. And when I open a project, something will set up its environment isolated from other projects and the host system.
+Imagine something like this: we create a specification of the development environment for every project. Through this specification, we can specify the tools and versions required by that project. And when we open a project, something will automatically set up the environment base on that specification.
 
 If we can have something like that, it will be very helpful when moving between computers, and for sharing the environments with other developers working on the project. Gone are the hassles of setting up environments.
 
