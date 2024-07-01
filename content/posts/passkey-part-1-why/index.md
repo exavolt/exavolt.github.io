@@ -17,11 +17,11 @@ Tidak jarang kita menjumpai kasus akun yang “di-*hack*.” Nah, salah satu met
 
 *Phishing* dilakukan dengan mengirimkan link yang membuat target penasaran. “Cek ini deh. Ini beneran foto kamu bukan `<link>`.” Ketika link tersebut kita klik, kita akan diminta untuk login.
 
-Dengan kita login melalui link tadi, kita udah kena *phishing*. Kenapa? Karena website yang meminta login tersebut adalah website palsu yang dibikin sedemikian rupa sehingga mirip situs yang kita familiar. Kata sandi (*password*) kita sudah disadap dan direkam di sistem si “*hacker*” saat kita mencoba login di website tersebut. Karena “*hacker*” ini punya kata sandi kita, mereka bisa login ke akun kita.
+Dengan kita login melalui link tadi, kita udah kena *phishing*. Kenapa? Karena situs yang meminta login tersebut adalah situs palsu yang dibikin sedemikian rupa sehingga mirip situs yang kita familiar. Kata sandi (*password*) kita sudah disadap dan direkam di sistem si “*hacker*” saat kita mencoba login di situs tersebut. Karena “*hacker*” ini punya kata sandi kita, mereka bisa login ke akun kita.
 
 Bagaimana Passkey memberi solusi?
 
-Passkey menggunakan perangkat kita, ponsel, laptop, sebagai penyimpan kunci untuk login. Passkey tidak menggunakan kata sandi dalam proses login. Karena tidak menggunakan kata sandi, mekanisme *phishing* yang ada tidak akan lagi berfungsi karena tidak ada kata sandi yang bisa disadap.
+Passkey menggunakan _chip_ khusus yang ada di perangkat kita, ponsel, laptop, sebagai penyimpan kunci untuk login. Passkey tidak menggunakan kata sandi dalam proses login. Karena tidak menggunakan kata sandi, mekanisme *phishing* yang ada tidak akan lagi berfungsi karena tidak ada kata sandi yang bisa disadap.
 
 ## Lebih aman saat ada kebocoran data
 
@@ -39,17 +39,15 @@ Salah satu metode login yang tanpa kata sandi (*passwordless*) adalah menggunaka
 
 SSO membantu pengguna untuk tidak perlu membuat password baru atau menggunakan password yang sama di berbagai layanan.
 
-Walaupun membantu, ada kekhawatiran dari sebagaian orang seputar privasi data karena dalam proses SSO beberapa data perlu diteruskan dari pihak penyedia SSO ke pihak website / app tempat kita login.
+Walaupun membantu, ada kekhawatiran dari sebagaian orang seputar privasi data karena dalam proses SSO beberapa data perlu diteruskan dari pihak penyedia SSO ke pihak situs / aplikasi tempat kita login.
 
 Data-data ini bisa digunakan oleh pihak-pihak yang terkait untuk melakukan profiling dan pelacakan terhadap penggunanya.
 
-Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita dengan website / app yang jadi tujuan kita login. Tidak perlu ada pihak ketiga yang dilibatkan dalam proses login.
-
-Selain itu, data yang dipertukarkan cuma berupa “kunci acak” saja.
+Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita dengan situs / aplikasi yang jadi tujuan kita login. Tidak perlu ada pihak ketiga yang dilibatkan dalam proses login.
 
 ## Lebih _"seamless"_ daripada 2FA / MFA
 
-Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP), bisa melalui email, SMS, atau app khusus macam Google Authenticator.
+Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP), bisa melalui email, SMS, atau aplikasi khusus macam Google Authenticator.
 
 Walaupun memberi tambahan lapisan keamanan, 2FA / MFA ini relatif ribet dalam prakteknya, terutama ketika kita harus input kode secara manual dalam waktu yang terbatas.
 
@@ -68,6 +66,6 @@ Salah satu alasan kenapa _"it just works"_ walaupun Passkey baru saja muncul ada
 
 Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai pengembang sistem, untuk bisa mulai meninggalkan password.
 
-Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey daripada password di website atau app, manfaatkanlah.
+Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey daripada password di website atau aplikasi, manfaatkanlah.
 
-Sebagai pengembang sistem, sediakanlah opsi untuk pengguna menggunakan Passkey.
+Sebagai pengembang sistem, sediakanlah opsi untuk pengguna menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan SSO.
