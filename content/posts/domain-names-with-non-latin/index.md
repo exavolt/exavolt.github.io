@@ -2,7 +2,7 @@
 title: Nama domain dengan karakter non-Latin
 date: 2022-06-06T14:02:22Z
 draft: false
-language: id
+lang: id
 slug: nama-domain-karakter-non-latin
 cover:
   image: images/drake.jpg

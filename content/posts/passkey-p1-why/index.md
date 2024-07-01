@@ -2,7 +2,7 @@
 title: 'Kenapa harus Passkey'
 date: 2024-06-27T08:46:31Z
 draft: false
-language: id
+lang: id
 slug: kenapa-harus-passkey
 ---
 
@@ -12,7 +12,7 @@ Di tulisan ini saya akan coba memberikan beberapa alasan kenapa kita sebaiknya m
 
 ## Tahan terhadap _phishing_
 
-Keunggulan utama dari Passkey adalah ketahanan terhadap *phishing* (*phishing-resistant)*, dan *phishing* merupakan alasan utama dari munculnya Passkey.
+Keunggulan utama dari Passkey adalah ketahanan terhadap *phishing* (*phishing-resistant*), dan *phishing* merupakan alasan utama dari munculnya Passkey.
 
 Tidak jarang kita menjumpai kasus akun yang “di-*hack*.” Nah, salah satu metode untuk “nge-*hack*” akun adalah dengan *phishing*.
 
