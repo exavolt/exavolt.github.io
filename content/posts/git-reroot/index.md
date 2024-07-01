@@ -37,7 +37,7 @@ $ git reset --soft <ORev>
 $ git commit --amend -m "My new initial commit"
 ```
 
-The above commands are doing the following:
+The above commands do the following:
 
 - First, it checks out `X` into a new branch named `reroot`
 - Resets the original commit without reseting the files and index
@@ -64,7 +64,7 @@ $ rm -rf .git/refs/original .git/refs/replace
 $ git branch -d reroot
 ```
 
-It does the following:
+They do the following:
 
 - First, it checks out the default branch (`master` in this case)
 - Replaces the reference to `XRev` with `RRev`
