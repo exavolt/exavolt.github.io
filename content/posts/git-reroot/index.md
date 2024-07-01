@@ -70,3 +70,6 @@ It does the following:
 - Removes temporary references
 - Deletes the now unused `reroot` branch
 
+---
+
+Please note that at the end of the process, the history is practically rewritten. The new head commit will not be the same as the old head commit and, no, you can't have the same head commit after re-root as it is logically impossible.
