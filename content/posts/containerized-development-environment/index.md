@@ -1,10 +1,13 @@
-+++
-title = 'Containerized development environment'
-date = 2022-08-21T14:49:25Z
-draft = false
-lang = 'en-US'
-tags = ['development environment', 'containerized environment', 'docker']
-+++
+---
+title: Containerized development environment
+date: 2022-08-21T14:49:25Z
+draft: false
+lang: en-US
+tags: ['development environment', 'containerized environment', 'docker']
+cover:
+  image: images/cover.jpg
+  caption: Source https://commons.wikimedia.org/wiki/File:Sandbox_with_toys_on_R%C3%B6e_g%C3%A5rd_2.jpg
+---
 
 A few days ago I was asked by a team member about which Go version to install to work on the project. Then it hit me that I no longer cared about setting up my development environments, almost. Most of my development environments are replicable, disposable, and recreate-able within seconds.
 
