@@ -1,0 +1,11 @@
+.post-content figure>img {
+    margin: 1rem 0 0;
+}
+
+.post-content figure>img[src*="#center"] {
+    margin: auto 1rem auto 0;
+}
+
+.post-content figure>figcaption>p {
+    margin: 2px 0 16px;
+}

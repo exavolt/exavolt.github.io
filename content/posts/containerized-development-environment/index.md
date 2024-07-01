@@ -26,11 +26,11 @@ Fortunately, that technology is already existed from a few years back, in form o
 
 We start by defining the base image (a Docker image), usually the base tech of the stack. We can pick one of various base technologies available. Popular technologies are officially provided including C++, Go, Python, NodeJS, Rust and more.
 
-![A lot of base technologies are already available](images/01-pick-base.png#center)
+![Various base technologies are already available](images/01-pick-base.png#center "We can pick from various base technologies. Some are officially supported while others are provided by community.")
 
 We can then add additional features to be included in the environment, including combining multiple technologies, e.g., Go, NodeJS, and MongoDB. In fact, we can add everything if it's needed by the project.
 
-![Adding extra technologies and tools is one check away](images/02-select-features.png#center)
+![Extra features is available as customization](images/02-select-features.png#center "Adding extra technologies and tools is one check away. If we are not satisfied with it, we can always edit the JSON to add a command to install extras.")
 
 If we require something that can't be provided through JSON, we can use our own Dockerfile to specify our custom image.
 
