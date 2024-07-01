@@ -67,6 +67,6 @@ Salah satu alasan kenapa _"it just works"_ walaupun Passkey baru saja muncul ada
 
 Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai pengembang sistem, untuk bisa mulai meninggalkan password.
 
-Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey daripada password di website atau aplikasi, manfaatkanlah.
+Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey alih-alih password di website atau aplikasi, manfaatkanlah.
 
 Sebagai pengembang sistem, sediakanlah opsi untuk pengguna menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan SSO.
