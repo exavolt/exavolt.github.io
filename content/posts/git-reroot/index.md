@@ -24,6 +24,8 @@ master: O-----X--------H
 - `X` is the commit you want to be as the new first commit
 - `H` is the head, i.e., latest commit
 
+> Note: I recommend to delete all but `master` branch before we start the operation.
+
 We will need to get the commits
 
 - `ORev` is the commit of `O` -- use the command `git rev-list --max-parents=0 HEAD`
@@ -69,6 +71,12 @@ It does the following:
 - Rewrites the history
 - Removes temporary references
 - Deletes the now unused `reroot` branch
+
+End result will look like this:
+
+```
+master:       R--------I
+```
 
 ---
 
