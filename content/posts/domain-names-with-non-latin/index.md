@@ -3,6 +3,7 @@ title: Nama domain dengan karakter non-Latin
 date: 2022-06-06T14:02:22Z
 draft: false
 language: id
+slug: nama-domain-karakter-non-latin
 ---
 
 Seperti biasa, di sebuah grup di Telegram ada diskusi. Ada yang sedang mengerjakan proyek portal untuk beberapa negara Asia dan *stuck*.
