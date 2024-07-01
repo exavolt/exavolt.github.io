@@ -66,7 +66,7 @@ For the actual guide, please visit the [official documentation](https://code.vis
 
 Dev Container have tremendously helped me on working with various projects with different stacks.
 
-All my projects, except mobile app projects, are dev-containerized. I haven’t installed Go tools, Python interpreter, NodeJS runtime, Rust tooling, etc. directly on my computer's OS. My computer's OS is relatively clean of dev tools. Well, except Dart / Flutter because I needed to install it in a non-containerized manner as it’s required for mobile dev.
+All my projects, except mobile app projects, are dev-containerized. I haven’t installed Go tools, Python interpreter, NodeJS runtime, Rust tooling, etc. directly on my computer's OS. My computer's OS is relatively clean of dev tools. Well, except Dart / Flutter, Android SDK, platform SDK, because they give more hassles if containerized.
 
 I’ve used dev environments to learn and experiment with various technologies. When I want to learn a new tech, I just need to create a folder and then create a Dev Container for it. When I am done, cleaning it up is a breeze.
 
