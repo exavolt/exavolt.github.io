@@ -12,6 +12,8 @@ Why do we want modularize our apps? Jump to the last section of this article for
 
 Imagine we have a two app projects. One of them is a task management app (`tasker`) while the other is a chat app (`messenger`).
 
+> NOTE: we are using "MVC pattern" for the examples. Modularization can be applied to other "patterns."
+
 We have this for the `tasker` app:
 
 ```
@@ -19,15 +21,12 @@ We have this for the `tasker` app:
 ├── models
 │   ├── user_model.dart
 │   └── task_model.dart
-├── repositories
-│   ├── user_repository.dart
-│   └── task_repository.dart
 ├── views
 │   ├── login_view.dart
 │   └── task_view.dart
-└── services
-    ├── auth_service.dart
-    └── task_service.dart
+└── controllers
+    ├── auth_controller.dart
+    └── task_controller.dart
 ```
 
 While the `messenger` app goes like this:
@@ -36,22 +35,19 @@ While the `messenger` app goes like this:
 ├── models
 │   ├── user_model.dart
 │   └── chat_model.dart
-├── repositories
-│   ├── user_repository.dart
-│   └── chat_repository.dart
 ├── views
 │   ├── login_view.dart
 │   └── chat_view.dart
-└── services
-    ├── auth_service.dart
-    └── chat_service.dart
+└── controllers
+    ├── auth_controller.dart
+    └── chat_controller.dart
 ```
 
-Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_programming). The reason is because they group together various business into folders, e.g., in the folder `repositories` we can find `user_repository` and `chat_repository` which both are coming from two different, unrelated business domains.
+Both of these projects are NOT [modular](https://en.wikipedia.org/wiki/Modular_programming). The reason is because they group together various business into folders, e.g., in the folder `model` we can find `user_model` and `chat_model` which both are coming from two different, unrelated business domains.
 
 ---
 
-To make them modular, we must first map the business domains so that we can draw [the boundaries between various concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) (coordinate with product manager or product owner so that the domain mapping will match). Each module will have a **single responsibilty** for a single concern or a single business domain (it can be hierarchical though, e.g., auth module can be split into smaller sub-modules, e.g., `oauth2`, `webauthn`).
+To make them modular, we must first map the business domains so that we can draw [the boundaries between various concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) (coordinate with product manager or product owner so that the domain mapping will match). Each module will have a **single responsibilty** for a single concern or a single business domain (it can be hierarchical though, e.g., auth module can be split into smaller sub-modules, e.g., `oauth2` and `webauthn`).
 
 > A program that embodies separation-of-concerns well is called a modular program.
 
@@ -71,10 +67,8 @@ Thus, we can put all business related to auth into its own module, e.g., `auth`.
     ├── views                       # Contains all auth-related views.
     │   ├── auth_login_view.dart
     │   └── auth_signup_view.dart
-    └── services                    # Contains all auth-related services (business logics).
-        ├── repositories
-        │   └── auth_user_repository.dart
-        └── auth_service.dart       # This is the entry point for other modules to integrate with auth service
+    └── controllers                 # Contains all auth-related controllers.
+        └── auth_controller.dart
 ```
 
 If we look at the structure above, it's like a module is a small app. Well, we can think it like that. Read on for more about this.
@@ -90,8 +84,8 @@ Applying it to the `tasker` project:
 ├── app         # app's entry point and as the integrator module
 │   ├── views
 │   │   └── app_view.dart
-│   └── services
-│       └── app_service.dart
+│   └── controllers
+│       └── app_controller.dart
 ├── auth        # Our auth module. It could be inlined in the project, use import redirection, symlink, or git submodule, or import the published package
 └── tasker      # Here, we've turned the app's main feature as a module
     ├── models
@@ -99,10 +93,8 @@ Applying it to the `tasker` project:
     ├── views
     │   ├── tasker_task_list_view.dart
     │   └── tasker_task_detail_view.dart
-    └── services
-        ├── repositories
-        │   └── tasker_task_repository.dart
-        └── tasker_service.dart
+    └── controllers
+        └── tasker_controller.dart
 ```
 
 The same can be applied to the messenger app project. In fact, we can combine it with the `tasker` module without ~~creating chaos~~ increasing the complexity by much. This is how we create a "superapp", i.e, an app that comprise of smaller "apps":
@@ -113,8 +105,8 @@ The same can be applied to the messenger app project. In fact, we can combine it
 │   ├── views
 │   │   ├── app_home_page.dart
 │   │   └── app_view.dart
-│   └── services
-│       └── app_service.dart
+│   └── controllers
+│       └── app_controller.dart
 ├── auth        # core module
 ├── messenger   # feature / business module
 ├── tasker      # feature / business module
