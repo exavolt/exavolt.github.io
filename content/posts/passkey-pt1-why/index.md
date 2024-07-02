@@ -68,14 +68,16 @@ Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, wajah k
 
 ## _"It just works"_
 
-Hampir semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak perlu install apa-apa lagi.
+Semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak perlu install apa-apa lagi.
 
 Salah satu alasan kenapa Passkey itu _"it just works"_ padahal baru saja muncul adalah
 
 - Didukung oleh vendor-vendor besar sistem operasi (OS), peramban (browser), dan perangkat: Apple, Google, Microsoft
 - Protokol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi menjadi standar mulai 2019
 
-Perangkat dan peramban yang mendukung Passkey bisa dipantau [di sini](https://www.passkeys.io/compatible-devices). Sedangkan untuk situs dan aplikasi yang menerima Passkey bisa dipantau [di sini](https://www.passkeys.io/who-supports-passkeys).
+Perangkat dan peramban yang mendukung Passkey bisa dipantau [di sini](https://www.passkeys.io/compatible-devices).
+
+Situs dan aplikasi yang menerima Passkey bisa dipantau [di sini](https://www.passkeys.io/who-supports-passkeys). Belum banyak memang, tapi yang terdaftar di situ adalah situs / aplikasi yang mendukung Passkey sebagai pengganti password. Sedangkan untuk situs / aplikasi yang mendukung WebAuthn sebagai 2FA / MFA sudah jauh lebih banyak dan bisa diliat [di sini](https://www.yubico.com/works-with-yubikey/catalog/?protocol=5&sort=a-z).
 
 ---
 
@@ -83,4 +85,4 @@ Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai p
 
 Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey alih-alih password di website atau aplikasi, manfaatkanlah.
 
-Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan SSO.
+Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan dengan SSO.
