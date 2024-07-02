@@ -6,9 +6,12 @@ lang: id
 slug: kenapa-harus-passkey
 cover:
   image: images/passkeys-hero.png
+  hiddenInSingle: true
 ---
 
 Passkey terbilang cukup baru dengan pengumuman baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
+
+![Passkey in action](images/passkey-in-action.png#center)
 
 Di tulisan ini saya akan coba memberikan beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
 
