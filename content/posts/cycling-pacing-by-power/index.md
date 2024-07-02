@@ -3,6 +3,7 @@ title: Pacing gowes berdasar analisis data
 date: 2022-09-26T15:55:20Z
 draft: false
 lang: id
+slug: pacing-gowes-analisis-data
 tags:
   - cycling
 cover:
