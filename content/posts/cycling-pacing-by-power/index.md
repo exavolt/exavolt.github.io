@@ -36,7 +36,7 @@ Kalo kita buka Strava, masing-masing kita ada PR untuk berbagai segments yang pe
 
 Jadi apa yang diukur?
 
-Ada dua metrik utama kita ukur di latian yang: HR dan power. HR itu menunjukan fitness kita, tapi gampang dipengaruhi banyak faktor. Power adalah data yang objective yang menunjukkan seberapa kuat kita. Jadi walaupun avg speed kita kurang, tapi kalo avg power lebih tinggi, berarti secara objective kita udah lebih kuat.
+Ada dua metrik utama kita ukur di latian yang: HR dan power. HR itu menunjukan fitness kita, tapi gampang dipengaruhi banyak faktor. Power adalah data yang objective yang menunjukkan seberapa kuat kita. Jadi walaupun avg speed kita lebih kecil, tapi kalo avg power lebih tinggi, berarti secara objective kita udah lebih kuat.
 
 Dan dari situlah aku bisa meyakinkan diri buat “upgrade” bukan ke sepeda, tapi fokus untuk “upgrade” ke mesinnya dengan jalan mengalihkan budget ke alat-alat yang bisa mengukur latian-latianku secara efektif. Ada beberapa tool “upgrade” buat mendukung latian.
 
