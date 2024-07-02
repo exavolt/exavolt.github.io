@@ -9,11 +9,13 @@ cover:
   hiddenInSingle: true
 ---
 
-Passkey terbilang cukup baru dengan pengumuman baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
+Passkey terbilang cukup baru dengan diumumkannya baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
 
 ![Passkey in action](images/passkey-in-action.png#center)
 
-Di tulisan ini saya akan coba memberikan beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
+Di tulisan ini kita akan coba melihat beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
+
+---
 
 ## Tahan terhadap _phishing_
 
@@ -31,7 +33,7 @@ Dengan kita login melalui link tadi, kita udah kena *phishing*. Kenapa? Karena s
 
 Bagaimana Passkey memberi solusi?
 
-Passkey menggunakan _chip_ khusus yang ada di perangkat kita, ponsel, laptop, sebagai penyimpan kunci untuk login. Passkey tidak menggunakan kata sandi dalam proses login. Karena tidak menggunakan kata sandi, mekanisme *phishing* yang ada tidak akan lagi berfungsi karena tidak ada kata sandi yang bisa disadap.
+Passkey menggunakan _chip_ khusus yang tertanam di perangkat modern kita, ponsel, laptop, sebagai penyimpan kunci untuk login. Passkey tidak menggunakan kata sandi dalam proses login. Karena tidak menggunakan kata sandi, mekanisme *phishing* yang ada tidak akan lagi berfungsi karena tidak ada kata sandi yang bisa disadap.
 
 ## Lebih aman saat ada kebocoran data
 
@@ -61,13 +63,13 @@ Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita
 
 ## Lebih _"seamless"_ daripada 2FA / MFA
 
-Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP - _One-Time Passwords_), bisa melalui email, SMS, atau aplikasi khusus macam Google Authenticator.
+Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA (_Two Factor Authentication_) atau MFA (_Multi-factor Authentication_), biasanya memanfaatkan kode sekali pakai (OTP --- _One-Time Passwords_), bisa melalui email, SMS, atau aplikasi khusus macam Google Authenticator.
 
 ![Google Authenticator](images/authenticator.png#center "Setiap kode hanya berlaku satu menit sehingga kita mungkin harus jungkir-balik dalam memasukkan kode. Sumber https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en")
 
 Walaupun memberi tambahan lapisan keamanan, 2FA / MFA ini relatif ribet dalam prakteknya, terutama ketika kita harus input kode secara manual dalam waktu yang terbatas.
 
-Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, wajah kita, atau PIN seperti biasanya kita membuka perangkat sebagai verifikasi ketika kita akan login sehingga terasa lebih mulus (_"seamless"_).
+Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, wajah kita, atau PIN seperti biasanya kita membuka perangkat sebagai verifikasi ketika kita akan login sehingga terasa instan dan lebih mulus (_"seamless"_).
 
 ## _"It just works"_
 
@@ -89,3 +91,14 @@ Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai p
 Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey alih-alih password di website atau aplikasi, manfaatkanlah.
 
 Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan dengan SSO.
+
+---
+
+Lebih lanjut tentang Passkey bisa kita baca dari beberapa sumber berikut.
+
+- [Passkeys 101 dari FIDO Alliance](https://fidoalliance.org/passkeys/)
+- [Passkeys di Google Identity](https://developers.google.com/identity/passkeys)
+
+---
+
+_Terima kasih untuk [faco](https://x.com/0xf4c0) dan [obet](https://x.com/obetebz) yang sudah memberi masukan dalam penulisan artikel ini._
