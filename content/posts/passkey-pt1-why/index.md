@@ -36,7 +36,7 @@ Metode lain yang bisa dipakai untuk “nge-*hack*” akun adalah dengan mengguna
 
 Dan perlu kita akui bahwa tidak semua penyedia layanan digital menjunjung tinggi dan kompeten di sisi keamanan data. Kita sering mendengar berita kebocoran data, yang kadang dari layananan pemerintahan kita.
 
-![Have I Been Pwned indexed passwords](images/pwned-passwords.png "Kita bisa cari tau apakah sebuah password sudah pernah ikut terbocorkan melalui situs https://haveibeenpwned.com/Passwords")
+![Have I Been Pwned indexed passwords](images/pwned-passwords.png "Kita bisa cari tau apakah sebuah password sudah pernah ikut dalam kebocoran data melalui situs https://haveibeenpwned.com/Passwords")
 
 Dengan menggunakan Passkey, tidak ada kata sandi kita yang disimpan di server. Artinya jika, amit-amit, data server layanan yang kita gunakan ini bocor, hacker tidak akan mendapatkan kata sandi kita.
 
