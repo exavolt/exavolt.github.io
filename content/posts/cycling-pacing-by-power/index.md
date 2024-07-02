@@ -42,7 +42,7 @@ Dan dari situlah aku bisa meyakinkan diri buat “upgrade” bukan ke sepeda, ta
 
 - HRM — ini udah sangat umum. Buat monitor HR saat kita ride.
 - Smartwatch — buat ngukur resting HR. Karena resting HR itu adalah salah satu indikator utama level fitness seseorang.
-- Smart trainer — biar latihan lebih fleksibel, dan buat ngelakuin beberapa latian yang susah dilakukan di outdoor terutama latian cadence dan pacing.
+- Smart trainer — biar latihan lebih fleksibel terhadapa cuaca dan jadwal, dan buat ngelakuin beberapa latian yang susah dilakukan di outdoor terutama latian seperti intervals, cadence, dan tempo yang konsisten.
 - Power meter — terutama buat di outdoor. Untuk mengukur secara objective apakah latian udah membuahkan hasil, dan yang paling kerasa adalah untuk pacing.
 
 ## First ride to Klangon: pacing by power
@@ -80,7 +80,9 @@ Some stats
 - Segment New Road - Butuh Market: avg 155W 36:04
 - Segment Butuh Market to Klangon: avg 135W 1:13:51
 - Segment RR Maguwo - Klangon: avg 140W 2:21:55
-- Segment Prambanan - Klangon: avg 141W 1:57:43
+- Segment Prambanan - Klangon: avg **141W** 1:57:43. Sesuai estimasi (!)
+
+![.](images/right-on-target.jpg "Sumber https://www.flickr.com/photos/comedynose/7865159650")
 
 Apakah bisa aku melakukannya tanpa power meter?
 
