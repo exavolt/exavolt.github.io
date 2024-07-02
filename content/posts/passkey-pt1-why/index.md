@@ -100,6 +100,7 @@ Lebih lanjut tentang passkey bisa kita baca dari beberapa sumber berikut.
 
 - [Passkeys 101 dari FIDO Alliance](https://fidoalliance.org/passkeys/)
 - [Passkeys di Google Identity](https://developers.google.com/identity/passkeys)
+- [Detail teknis](https://www.passkeys.io/technical-details)
 - [Demo passkey](https://www.passkeys.io/)
 
 ---
