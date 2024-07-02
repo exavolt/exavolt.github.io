@@ -41,7 +41,7 @@ Catatan tambahan: perlu diingat bahwa tidak semua aplikasi mendukung IDN sehingg
 
 ![Untitled](images/kr.jpg#center)
 
-ketika URL tersebut disalin akan jadi `http://xn--v52b25r8ohcyb.kr/book` dan bukan `http://탈모케어.kr/book` . Meskipun begitu, ketika disalin-tempel ke browser lagi, biasanya browser akan menampilkan dengan karakter-karakter yang seharusnya.
+ketika URL tersebut disalin dan ditempel ke aplikasi akan jadi `http://xn--v52b25r8ohcyb.kr/book` dan bukan `http://탈모케어.kr/book` . Meskipun begitu, ketika disalin-tempel ke browser lagi, biasanya browser akan menampilkan dengan karakter-karakter yang seharusnya.
 
 ---
 
