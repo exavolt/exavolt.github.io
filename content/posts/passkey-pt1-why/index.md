@@ -90,6 +90,8 @@ Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai p
 
 Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey alih-alih password di website atau aplikasi, manfaatkanlah.
 
+![passkeys.io demo site](images/paskeys-dot-io.png)
+
 Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan dengan SSO.
 
 ---
