@@ -60,7 +60,7 @@ Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita
 
 Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP - _One-Time Passwords_), bisa melalui email, SMS, atau aplikasi khusus macam Google Authenticator.
 
-![Google Authenticator](images/authenticator.png#center "Setiap kode hanya berlaku satu menit sehingga kita mungkin harus jungkir-balik dalam memasukkan kode")
+![Google Authenticator](images/authenticator.png#center "Setiap kode hanya berlaku satu menit sehingga kita mungkin harus jungkir-balik dalam memasukkan kode. Sumber https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en")
 
 Walaupun memberi tambahan lapisan keamanan, 2FA / MFA ini relatif ribet dalam prakteknya, terutama ketika kita harus input kode secara manual dalam waktu yang terbatas.
 
@@ -73,7 +73,7 @@ Hampir semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak p
 Salah satu alasan kenapa Passkey itu _"it just works"_ padahal baru saja muncul adalah
 
 - Didukung oleh vendor-vendor besar sistem operasi (OS), peramban (browser), dan perangkat: Apple, Google, Microsoft
-- Protocol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi sebagai standar mulai 2019
+- Protokol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi menjadi standar mulai 2019
 
 Perangkat dan peramban yang mendukung Passkey bisa dipantau [di sini](https://www.passkeys.io/compatible-devices). Sedangkan untuk situs dan aplikasi yang menerima Passkey bisa dipantau [di sini](https://www.passkeys.io/who-supports-passkeys).
 
