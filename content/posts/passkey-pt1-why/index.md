@@ -54,13 +54,13 @@ Walaupun membantu, ada kekhawatiran dari sebagaian orang seputar privasi data ka
 
 Data-data ini bisa digunakan oleh pihak-pihak yang terkait untuk melakukan profiling dan pelacakan terhadap penggunanya.
 
-Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita dengan situs / aplikasi yang jadi tujuan kita login. Tidak perlu ada pihak ketiga yang dilibatkan dalam proses login.
+Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita dengan situs / aplikasi yang jadi tujuan kita login. Tidak perlu ada pihak ketiga yang dilibatkan dalam proses login sehingga mengurangi resiko penyebaran data dan pelacakan.
 
 ## Lebih _"seamless"_ daripada 2FA / MFA
 
-Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP), bisa melalui email, SMS, atau aplikasi khusus macam Google Authenticator.
+Salah satu cara untuk meningkatkan keamanan akun kita adalah dengan menambahkan faktor tambahan untuk login. Faktor tambahan ini, biasa disebut dengan 2FA - _Two Factor Authentication_ atau MFA - _Multi-factor Authentication_, biasanya memanfaatkan kode sekali pakai (OTP - _One-Time Passwords_), bisa melalui email, SMS, atau aplikasi khusus macam Google Authenticator.
 
-![Google Authenticator](images/authenticator.png#center "Setiap kode hanya berlaku satu menit sehingga kita harus cukup sigap dalam memasukkan kode")
+![Google Authenticator](images/authenticator.png#center "Setiap kode hanya berlaku satu menit sehingga kita mungkin harus jungkir-balik dalam memasukkan kode")
 
 Walaupun memberi tambahan lapisan keamanan, 2FA / MFA ini relatif ribet dalam prakteknya, terutama ketika kita harus input kode secara manual dalam waktu yang terbatas.
 
