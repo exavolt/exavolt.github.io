@@ -9,17 +9,17 @@ cover:
   hiddenInSingle: true
 ---
 
-Passkey terbilang cukup baru dengan diumumkannya baru tahun 2023 kemarin. Tetapi walaupun Passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
+Passkey terbilang cukup baru dengan diumumkannya baru tahun 2023 kemarin. Tetapi walaupun passkey masih terbilang baru, saya pribadi sangat menganjurkan untuk menggunakannya, atau untuk pengembang sistem untuk menerapkannya.
 
-![Passkey in action](images/passkey-in-action.png#center)
+![Passkey in action](images/passkey-at-github.png#center)
 
-Di tulisan ini kita akan coba melihat beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan Passkey.
+Di tulisan ini kita akan coba melihat beberapa alasan kenapa kita sebaiknya mulai menggunakan / menerapkan passkey.
 
 ---
 
 ## Tahan terhadap _phishing_
 
-Keunggulan utama dari Passkey adalah ketahanan terhadap *phishing* (*phishing-resistant*), dan *phishing* merupakan alasan utama dari munculnya Passkey.
+Keunggulan utama dari passkey adalah ketahanan terhadap *phishing* (*phishing-resistant*), dan *phishing* merupakan alasan utama dari munculnya passkey.
 
 Tidak jarang kita menjumpai kasus akun yang “di-*hack*.” Nah, salah satu metode untuk “nge-*hack*” akun adalah dengan *phishing*.
 
@@ -31,7 +31,7 @@ Tidak jarang kita menjumpai kasus akun yang “di-*hack*.” Nah, salah satu met
 
 Dengan kita login melalui link tadi, kita udah kena *phishing*. Kenapa? Karena situs yang meminta login tersebut adalah situs palsu yang dibikin sedemikian rupa sehingga mirip situs yang kita familiar. Kata sandi (*password*) kita sudah disadap dan direkam di sistem si “*hacker*” tepat ketika kita mencoba login di situs tersebut. Karena “*hacker*” ini punya kata sandi kita, mereka bisa login ke akun kita.
 
-Bagaimana Passkey memberi solusi?
+Bagaimana passkey memberi solusi?
 
 Passkey menggunakan _chip_ khusus yang tertanam di perangkat modern kita, ponsel, laptop, sebagai penyimpan kunci untuk login. Passkey tidak menggunakan kata sandi dalam proses login. Karena tidak menggunakan kata sandi, mekanisme *phishing* yang ada tidak akan lagi berfungsi karena tidak ada kata sandi yang bisa disadap.
 
@@ -43,9 +43,9 @@ Dan perlu kita akui bahwa tidak semua penyedia layanan digital menjunjung tinggi
 
 ![Have I Been Pwned indexed passwords](images/pwned-passwords.png "Kita bisa cari tau apakah sebuah password sudah pernah ikut dalam kebocoran data melalui situs https://haveibeenpwned.com/Passwords")
 
-Dengan menggunakan Passkey, tidak ada kata sandi kita yang disimpan di server. Artinya jika, amit-amit, data server layanan yang kita gunakan ini bocor, hacker tidak akan mendapatkan kata sandi kita.
+Dengan menggunakan passkey, tidak ada kata sandi kita yang disimpan di server. Artinya jika, amit-amit, data server layanan yang kita gunakan ini bocor, hacker tidak akan mendapatkan kata sandi kita.
 
-Perlu dicatat bahwa data kita di sebuah layanan yang datanya bocor, data kita yang ikut bocor akan tetap ada kemungkinan tersebar. Tetapi dengan Passkey, akun kita di layanan lain akan jauh lebih aman dibanding kalau kita menggunakan kata sandi yang sama untuk berbagai layanan.
+Perlu dicatat bahwa data kita di sebuah layanan yang datanya bocor, data kita yang ikut bocor akan tetap ada kemungkinan tersebar. Tetapi dengan passkey, akun kita di layanan lain akan jauh lebih aman dibanding kalau kita menggunakan kata sandi yang sama untuk berbagai layanan.
 
 ## Privasi yang lebih baik
 
@@ -59,7 +59,7 @@ Walaupun membantu, ada kekhawatiran dari sebagaian orang seputar privasi data ka
 
 Data-data ini bisa digunakan oleh pihak-pihak yang terkait untuk melakukan profiling dan pelacakan terhadap penggunanya.
 
-Dengan Passkey, pertukaran data untuk login terbatas hanya antara perangkat kita dengan situs / aplikasi yang jadi tujuan kita login. Tidak perlu ada pihak ketiga yang dilibatkan dalam proses login sehingga mengurangi resiko penyebaran data dan pelacakan.
+Dengan passkey, pertukaran data untuk login terbatas hanya antara perangkat kita dengan situs / aplikasi yang jadi tujuan kita login. Tidak perlu ada pihak ketiga yang dilibatkan dalam proses login sehingga mengurangi resiko penyebaran data dan pelacakan.
 
 ## Lebih _"seamless"_ daripada 2FA / MFA
 
@@ -73,33 +73,34 @@ Passkey memanfaatkan sistem keamanan perangkat kita, seperti sidik jari, wajah k
 
 ## _"It just works"_
 
-Semua perangkat digital modern kita sudah mendukung Passkey. Kita tidak perlu install apa-apa lagi.
+Semua perangkat digital modern kita sudah mendukung passkey. Kita tidak perlu install apa-apa lagi.
 
-Salah satu alasan kenapa Passkey itu _"it just works"_ padahal baru saja muncul adalah
+Salah satu alasan kenapa passkey itu _"it just works"_ padahal baru saja muncul adalah
 
 - Didukung oleh vendor-vendor besar sistem operasi (OS), peramban (browser), dan perangkat: Apple, Google, Microsoft
-- Protokol dan teknologi yang digunakan untuk membangun Passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi menjadi standar mulai 2019
+- Protokol dan teknologi yang digunakan untuk membangun passkey, yaitu WebAuthn, sudah diusulkan sejak 2013 dan resmi menjadi standar mulai 2019
 
-Perangkat dan peramban yang mendukung Passkey bisa dipantau [di sini](https://www.passkeys.io/compatible-devices).
+Perangkat dan peramban yang mendukung passkey bisa dipantau [di sini](https://www.passkeys.io/compatible-devices).
 
-Situs dan aplikasi yang menerima Passkey bisa dipantau [di sini](https://www.passkeys.io/who-supports-passkeys). Belum banyak memang, tapi yang terdaftar di situ adalah situs / aplikasi yang mendukung Passkey sebagai pengganti password. Sedangkan untuk situs / aplikasi yang mendukung WebAuthn sebagai 2FA / MFA sudah jauh lebih banyak dan bisa diliat [di sini](https://www.yubico.com/works-with-yubikey/catalog/?protocol=5&sort=a-z).
+Situs dan aplikasi yang menerima passkey bisa dipantau [di sini](https://www.passkeys.io/who-supports-passkeys). Belum banyak memang, tapi yang terdaftar di situ adalah situs / aplikasi yang mendukung passkey sebagai pengganti password. Sedangkan untuk situs / aplikasi yang mendukung WebAuthn sebagai 2FA / MFA sudah jauh lebih banyak dan bisa diliat [di sini](https://www.yubico.com/works-with-yubikey/catalog/?protocol=5&sort=a-z).
 
 ---
 
 Passkey memberikan opsi dan solusi untuk kita, sebagai pengguna maupun sebagai pengembang sistem, untuk bisa mulai meninggalkan password.
 
-Sebagai pengguna, apabila ada kesempatan untuk menggunakan Passkey alih-alih password di website atau aplikasi, manfaatkanlah.
+Sebagai pengguna, apabila ada kesempatan untuk menggunakan passkey alih-alih password di website atau aplikasi, manfaatkanlah.
 
 ![passkeys.io demo site](images/paskeys-dot-io.png#center "Demo di passkeys.io")
 
-Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan Passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan dengan SSO.
+Sebagai pengembang sistem, sediakanlah opsi untuk pengguna untuk bisa menggunakan passkey karena secara teknologi lebih aman daripada password dan lebih menjaga privasi kalau dibandingkan dengan SSO.
 
 ---
 
-Lebih lanjut tentang Passkey bisa kita baca dari beberapa sumber berikut.
+Lebih lanjut tentang passkey bisa kita baca dari beberapa sumber berikut.
 
 - [Passkeys 101 dari FIDO Alliance](https://fidoalliance.org/passkeys/)
 - [Passkeys di Google Identity](https://developers.google.com/identity/passkeys)
+- [Demo passkey](https://www.passkeys.io/)
 
 ---
 
