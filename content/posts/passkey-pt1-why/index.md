@@ -21,7 +21,7 @@ Keunggulan utama dari Passkey adalah ketahanan terhadap *phishing* (*phishing-re
 
 Tidak jarang kita menjumpai kasus akun yang “di-*hack*.” Nah, salah satu metode untuk “nge-*hack*” akun adalah dengan *phishing*.
 
-![Phishing bait message](images/phishing-bait.jpg#center "Contoh pesan berupa phishing")
+![Phishing bait message](images/phishing-bait.jpg#center "Contoh pesan yang berisi phishing")
 
 *Phishing* dilakukan dengan mengirimkan link yang membuat target penasaran. “Cek ini deh. Ini beneran foto kamu bukan `<link>`.” Ketika link tersebut kita klik, kita akan diminta untuk login.
 
