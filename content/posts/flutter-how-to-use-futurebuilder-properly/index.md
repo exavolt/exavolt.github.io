@@ -1,10 +1,13 @@
-+++
-title = 'How to use Flutter’s FutureBuilder properly'
-date = 2024-06-20T02:54:27Z
-draft = false
-lang = 'en-US'
-tags = ['flutter', 'dart', 'async']
-+++
+---
+title: How to use Flutter’s FutureBuilder properly
+date: 2024-06-20T02:54:27Z
+draft: false
+lang: 'en-US'
+tags: ['flutter', 'dart', 'async', 'FutureBuilder']
+cover:
+  image: images/loading-future.png
+  hiddenInSingle: true
+---
 
 When developing a Flutter app, there might be a need to display data that is not instantly available. This data needs to be prepared asynchronously to prevent freezing of the app. And while the data is being prepared, we want to display an indicator so the user knows that their data is being loaded.
 
