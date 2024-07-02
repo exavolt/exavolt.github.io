@@ -65,7 +65,7 @@ For the actual guide, please visit the [official documentation](https://code.vis
 
 ---
 
-## How I use Dev Container
+## How do I use Dev Containers
 
 Dev Container have tremendously helped me on working with various projects with different stacks.
 
