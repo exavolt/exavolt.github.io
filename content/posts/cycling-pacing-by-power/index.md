@@ -80,7 +80,7 @@ Some stats
 - Segment New Road - Butuh Market: avg 155W 36:04
 - Segment Butuh Market to Klangon: avg 135W 1:13:51
 - Segment RR Maguwo - Klangon: avg 140W 2:21:55
-- Segment Prambanan - Klangon: avg **141W** 1:57:43. Sesuai estimasi (!)
+- Segment Prambanan - Klangon: avg **141W** 1:57:43. **Sesuai estimasi (!)**
 
 ![.](images/right-on-target.jpg "Sumber https://www.flickr.com/photos/comedynose/7865159650")
 
@@ -88,4 +88,4 @@ Apakah bisa aku melakukannya tanpa power meter?
 
 Mungkin bisa. Tapi, power meter ini terbukti sangat membantu untuk tau kapan menahan dan kapan untuk nge-push karena beberapa kali hampir kecolongan.
 
-![Last-corner](images/best-view.jpg "📸 eenk")
+![Last-corner](images/best-view.jpg "Ciao! 📸 eenk")
