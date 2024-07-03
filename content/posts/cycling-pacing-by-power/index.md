@@ -4,6 +4,7 @@ date: 2022-09-26T15:55:20Z
 draft: false
 lang: id
 slug: pacing-gowes-analisis-data
+description: Penerapan analisa ride data dan pertimbangan FTP individu untuk pacing sebuah ride secara tepat.
 tags:
   - cycling
 cover:
@@ -26,7 +27,7 @@ Sebelumnya, ini beberapa hal tentang aku:
 - Aku seorang karyawan yang, walaupun waktu cukup fleksibel, tetap terbatas. Ditambah kewajiban sebagai kepala rumah tangga yang karena situasi dan kondisi, nggak bisa semaunya minggat.
 - Tujuan gowes buatku adalah sebagai sarana eksplorasi, refreshing, dan ningkatin baseline fitness. Tapi ternyata dapat benefit lain setelah banyak gowes: banyak ketemu teman baru.
 
-Sejak mulai sepedaan lagi, aku bikin list yang berisi spot-spot yang pengen aku samperin pake sepeda, yang aku kompilasi dari hasil kepo di Strava dan Instagram. Dan juga ada hal-hal lain yang pengen aku lakuin dengan sepeda terutama long ride antar kota.
+Sejak mulai sepedaan lagi, aku bikin list yang berisi spot-spot yang pengen aku samperin pake sepeda, yang aku kompilasi dari hasil kepo di Strava dan Instagram. Dan juga ada hal-hal lain yang pengen aku lakuin dengan sepeda terutama long ride antar kota (ultra!).
 
 ### The need for strength
 
@@ -79,8 +80,8 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 ### Analysis results
 
 - Berdasar analisa ride Eenk, semua masih achievable buatku buat non-stop dari Prambanan ke Klangon. Tapi aku kudu cari pace yang tepat buatku.
-- Dengan FTP ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dengan durasi lebih dari satu jam sementara nahan power di FTP itu kira-kira cuma cukup untuk satu jam. Aku kudu turunin target avg power (pace).
-- Dengan sedikit ngawang, aku kira-kira bahwa aku bisa coba di power 140--150W dengan reserve power untuk akhir-akhir yang ada gradient berat yang kira-kira butuh 170--200W hanya untuk bisa gerak.
+- Dengan FTP ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu kira-kira cuma cukup untuk satu jam. Aku kudu turunin target avg power (pace).
+- Dengan sedikit ngawang, aku kira-kira bahwa aku bisa main di power 140--150W dengan reserve power untuk akhir-akhir yang ada gradient berat yang kira-kira butuh 170--200W hanya untuk bisa gerak.
 
 ### Ride result
 
@@ -92,7 +93,7 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 - Segment New Road - Butuh Market: avg 155W 36:04
 - Segment Butuh Market to Klangon: avg 135W 1:13:51
 - Segment RR Maguwo - Klangon: avg 140W 2:21:55
-- Segment Prambanan - Klangon: avg **141W** 1:57:43. **Sesuai estimasi (!)**
+- Segment Prambanan - Klangon: avg **141W** 1:57:43. **Tepat sesuai estimasi (!!!)**
 
 ![.](images/right-on-target.jpg "Sumber https://www.flickr.com/photos/comedynose/7865159650")
 
@@ -100,6 +101,10 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 
 Apakah bisa aku melakukannya tanpa power meter?
 
-Mungkin bisa. Tapi, power meter ini terbukti sangat membantu untuk tau kapan menahan dan kapan untuk nge-push karena beberapa kali hampir kecolongan.
+Mungkin bisa. Tapi, power meter ini terbukti sangat membantu untuk tau kapan menahan dan kapan untuk nge-push karena, dari kenyataannya di lapangan, terjadi beberapa kali ~~hampir~~ kecolongan salah power.
 
 ![Last-corner](images/best-view.jpg "Ciao! 📸 eenk")
+
+---
+
+_Terima kasih buat [eenk](https://x.com/hendriansah) yang udah bantu provide data-datanya dan, tentu saja, menemani dan menyemangati selama ride (ya... beberapa kali aku ditinggal ke depan buat ngudud)._
