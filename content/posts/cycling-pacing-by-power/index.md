@@ -18,12 +18,14 @@ Pastinya bukan sesuatu yang impresif buat yang ada di sini. Mungkin udah pada se
 
 Tapi yang buatku, yang kulakukan kemaren itu nggak gampang, buatku ya, dan butuh beberapa faktor penting untuk ku bisa menyelesaikannya.
 
-### Background
+---
+
+## Background
 
 Sebelumnya, ini beberapa hal tentang aku:
 
-- Aku mulai gowes lagi November 2020. Sebelumnya udah pernah sepedaan di tahun 2011-2012 tapi terus terlupakan.
-- Usiaku hampir dan udah 40. Udah lewat masa pertumbuhan. Improveku lebih lambat dari mereka yang masih muda.
+- Aku mulai gowes lagi November 2020. Sebelumnya udah pernah rutin sepedaan di tahun 2011--2012 (ingat Endomondo?) tapi terus terlupakan.
+- Usiaku hampir dan udah 40. Sedikit udah lewat masa pertumbuhan. Improveku lebih lambat dari mereka yang masih ~~bocah~~ muda.
 - Aku seorang karyawan yang, walaupun waktu cukup fleksibel, tetap terbatas. Ditambah kewajiban sebagai kepala rumah tangga yang karena situasi dan kondisi, nggak bisa semaunya minggat.
 - Tujuan gowes buatku adalah sebagai sarana eksplorasi, refreshing, dan ningkatin baseline fitness. Tapi ternyata dapat benefit lain setelah banyak gowes: banyak ketemu teman baru.
 
@@ -70,7 +72,7 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 - Dari 4 summits lereng selatan Merapi, belum ada satu pun yang aku pernah gowes non-stop. Terakhir ke Goa Jepang beberapa bulan lalu dan itu belum non-stop.
 - FTP ku cuma 170an Watt dengan berat badan 69--70 kg ⇒ 2,4 W/kg (terakhir test awal Juni)
 
-### Gathering info and analyzing them
+### Gathering data and analyzing them
 
 - Berawal bingung di Jum’at siang, Sabtu mau ke mana → Eenk suggest ke Klangon
 - Aku minta Eenk nunjukin link Strava ke ride-ride dia ke Klangon karena dia pake power meter dan berat badan kita mirip-mirip — overall mungkin beda 2--4 kg.
@@ -98,6 +100,8 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 ![.](images/right-on-target.jpg "Sumber https://www.flickr.com/photos/comedynose/7865159650")
 
 ---
+
+## Closing
 
 Apakah bisa aku melakukannya tanpa power meter?
 
