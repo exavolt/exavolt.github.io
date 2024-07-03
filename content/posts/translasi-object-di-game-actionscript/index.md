@@ -138,3 +138,7 @@ Di atas adalah dasar untuk menggerakkan object. Dasar ini bisa diterapkan ke dim
 Perlu dicatat bahwa yang disampaikan di atas ini menggunakan pergerakan linear, tanpa akselerasi dan deselerasi, sehingga akan terlihat tidak natural.
 
 Apabila object bergerak mengikuti waypoints, akan perlu pertimbangan supaya pergerakan kontinyu saat object melewati sebuah waypoint.
+
+---
+
+_Artikel ini sebelumnya saya publish sebagai gist https://gist.github.com/exavolt/1857767_
