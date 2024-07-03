@@ -37,7 +37,7 @@ Passkey menggunakan _chip_ khusus yang tertanam di perangkat modern kita, ponsel
 
 ## Lebih aman saat ada kebocoran data
 
-Metode lain yang bisa dipakai untuk “nge-*hack*” akun adalah dengan menggunakan data server yang bocor. Ada kemungkinan di dalam data yang bocor tersebut ada data kata sandi (*password*) akun-akun pengguna, termasuk akun kita kalau kita punya akun di layanan tersebut.
+Metode lain yang bisa dipakai untuk “nge-*hack*” akun adalah dengan menggunakan data server yang bocor (_data breach_). Ada kemungkinan di dalam data yang bocor tersebut ada data kata sandi (*password*) akun-akun pengguna, termasuk akun kita kalau kita punya akun di layanan tersebut.
 
 Dan perlu kita akui bahwa tidak semua penyedia layanan digital menjunjung tinggi dan kompeten di sisi keamanan data. Kita sering mendengar berita kebocoran data, yang kadang dari layananan pemerintahan kita.
 
@@ -101,7 +101,7 @@ Lebih lanjut tentang passkey bisa kita baca dari beberapa sumber berikut.
 - [Passkeys 101 dari FIDO Alliance](https://fidoalliance.org/passkeys/)
 - [Passkeys di Google Identity](https://developers.google.com/identity/passkeys)
 - [Detail teknis](https://www.passkeys.io/technical-details)
-- [Demo passkey](https://www.passkeys.io/)
+- [Demo passkey di passkeys.io](https://www.passkeys.io/)
 
 ---
 
