@@ -97,7 +97,7 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 - Segment RR Maguwo - Klangon: avg 140W 2:21:55
 - Segment Prambanan - Klangon: avg **141W** 1:57:43. **Tepat sesuai estimasi (!!!)**
 
-![.](images/right-on-target.jpg "Sumber https://www.flickr.com/photos/comedynose/7865159650")
+![.](images/so_good.jpg)
 
 ---
 
