@@ -125,3 +125,7 @@ By putting each business domain into its own folder / package, it should make it
 Through modularization, it makes it easier to minimize the interface (interface here is API -- package API and interprocess API) exposed by our modules. **Smaller, well-defined interface means less bugs, less maintenance burden, more maintainability**.
 
 While the example is for Flutter apps, the same modularization can be applied to other languages and frameworks, including for backend services. Modularization in backend services would make it **easier to transition from monolithic to microservices**.
+
+---
+
+_This article was previously published as [a Gist](https://gist.github.com/exavolt/88c9af30552b56f37a894d5e7f77506c)_

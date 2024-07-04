@@ -31,7 +31,7 @@ Sebelumnya, ini beberapa hal tentang aku:
 
 Sejak mulai sepedaan lagi, aku bikin list yang berisi spot-spot yang pengen aku samperin pake sepeda, yang aku kompilasi dari hasil kepo di Strava dan Instagram. Dan juga ada hal-hal lain yang pengen aku lakuin dengan sepeda terutama long ride antar kota (ultra!).
 
-### The need for strength
+### The need for power
 
 Satu hal yang aku sadari setelah mulai menjalani sepedaan lagi adalah, bahwa aku butuh kuat di atas sepeda biar bisa eksplorasi. Aku butuh kuat karena banyak medan yang menantang. Aku butuh kuat supaya siap menghadapi berbagai medan di rute yang dilalui. Sukur-sukur bisa nggak full effort ketika ngelakuin eksplorasi --- biar bisa menikmati eksplorasinya pastinya.
 
@@ -39,7 +39,7 @@ Aku menyadari bahwa latian sepeda biar kuat itu butuh volume dan frekuensi yang 
 
 Aku perlu “program” latian yang efektif. “Program” latian yg efektif adalah latian-latian yang berkualitas. Untuk melihat sesuatu itu berkualitas apa enggak, perlu ada ukurannya.
 
-### The measurement of strength
+### The metrics
 
 Kalo kita buka Strava, masing-masing kita ada PR untuk berbagai segments yang pernah kita lalui. Tapi PR segments itu bukan ukuran. PR dan avg speed adalah buah hasil latian, bukan ukuran latiannya.
 
@@ -56,7 +56,7 @@ Dan dari situlah aku bisa meyakinkan diri buat “upgrade” bukan ke sepeda, ta
 - Smart trainer — biar latihan lebih fleksibel terhadap cuaca dan jadwal, dan buat ngelakuin beberapa latian yang susah dilakukan di outdoor terutama latian seperti intervals, cadence, dan sustained tempo.
 - Power meter — terutama buat di outdoor. Untuk mengukur secara objective apakah latian udah membuahkan hasil.
 
-Nah dari situ tinggal rutin beberapa kali seminggu dan antara 30 menit sampai 2 jam atau lebih (isi dari programnya itu sendiri ada ceritanya tersendiri) sambil direview metric-metrics-nya untuk melihat perkembangan.
+Nah dari situ tinggal rutin beberapa kali seminggu dan antara 30 menit sampai 2 jam atau lebih (isi dari programnya itu sendiri ada ceritanya tersendiri) sambil direview metrik-metriknya untuk melihat perkembangan.
 
 ---
 
@@ -112,3 +112,5 @@ Mungkin bisa. Tapi, power meter ini terbukti sangat membantu untuk tau kapan men
 ---
 
 _Terima kasih buat [eenk](https://x.com/hendriansah) yang udah bantu provide data-datanya dan, tentu saja, menemani dan menyemangati selama ride (ya... beberapa kali aku ditinggal ke depan buat ngudud)._
+
+_Terima kasih buat [Amar Muammar](https://www.strava.com/athletes/41964148) dan [Bogipower](https://www.strava.com/athletes/23853365) yang sudah memberi masukan terhadap tulisan ini._
