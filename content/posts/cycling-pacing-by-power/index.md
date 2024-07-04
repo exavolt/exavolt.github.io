@@ -47,6 +47,8 @@ Jadi apa yang diukur?
 
 Ada dua metrik utama kita ukur di latian yang: HR dan power. HR itu menunjukan fitness kita, tapi gampang dipengaruhi banyak faktor. Power adalah data yang objective yang menunjukkan seberapa kuat kita. Jadi walaupun avg speed kita lebih kecil, tapi kalo avg power lebih tinggi, berarti secara objective kita udah lebih kuat.
 
+Ada banyak cara pembandingan untuk melihat progress. Kebetulan yang jadi acuanku adalah power dibandingkan dengan HR. Contohnya begini. Misal hari ini, disebuah segment, power 200W, HR 170bpm. Sebulan kemudian, kalau latihannya berprogress, di segment yang sama dengan kondisi yang mirip, dengan power 200W, HR mungkin udah turun jadi 165bpm.
+
 ### The upgrades
 
 Dan dari situlah aku bisa meyakinkan diri buat “upgrade” bukan ke sepeda, tapi fokus untuk “upgrade” ke mesinnya dengan jalan mengalihkan budget ke alat-alat yang bisa mengukur latian-latianku secara efektif. Ada beberapa tool “upgrade” yang mendukung latian.
