@@ -7,6 +7,8 @@ slug: pacing-gowes-analisis-data
 description: Penerapan analisa ride data dan pertimbangan FTP individu untuk pacing sebuah ride secara tepat.
 tags:
   - cycling
+  - FTP
+  - sport performance analysis
 cover:
   image: images/cover.jpg
   hiddenInSingle: true
