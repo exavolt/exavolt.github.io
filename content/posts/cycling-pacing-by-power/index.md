@@ -18,55 +18,11 @@ Beberapa waktu lalu aku ke Klangon dari Prambanan secara non-stop.
 
 Pastinya bukan sesuatu yang impresif buat yang ada di sini. Mungkin udah pada sering, mungkin ada yang bisa melakukannya dengan satu tangan, dsb.
 
-Tapi yang buatku, yang kulakukan kemaren itu nggak gampang, buatku ya, dan butuh beberapa faktor penting untuk ku bisa menyelesaikannya.
+Tapi yang buatku, yang kulakukan kemaren itu nggak gampang, buatku ya, dan butuh beberapa faktor penting untuk ku bisa menyelesaikannya. Selain latihan, perlu ada planning berdasar data supaya bisa memenuhi target.
 
 ---
 
-## Background
-
-Sebelumnya, ini beberapa hal tentang aku:
-
-- Aku mulai gowes lagi November 2020. Sebelumnya udah pernah rutin sepedaan di tahun 2011--2012 (ingat Endomondo?) tapi terus terlupakan.
-- Usiaku udah lewat masa pertumbuhan. Improveku lebih lambat dari mereka yang masih ~~bocah~~ muda.
-- Aku seorang karyawan dan ditambah kewajiban sebagai kepala rumah tangga jadi nggak bisa semaunya ~~minggat~~ gowes lama.
-- Tujuan gowes buatku adalah sebagai sarana eksplorasi, refreshing, dan ningkatin baseline fitness. Tapi ternyata dapat benefit lain setelah banyak gowes: banyak ketemu teman baru.
-
-Sejak mulai sepedaan lagi, aku bikin list yang berisi spot-spot yang pengen aku samperin pake sepeda, yang aku kompilasi dari hasil kepo di Strava dan Instagram. Dan juga ada hal-hal lain yang pengen aku lakuin dengan sepeda terutama long ride antar kota (ultra!).
-
-### The need for performance
-
-Satu hal yang aku sadari setelah mulai menjalani sepedaan lagi adalah, bahwa aku butuh kuat dan tahan di atas sepeda biar bisa eksplorasi. Aku butuh kuat karena ketika ekplorasi, tidak jarang kita menemui medan yang menantang. Sukur-sukur bisa nggak full effort ketika ngelakuin eksplorasi --- biar bisa menikmati eksplorasinya pastinya.
-
-Aku menyadari bahwa latian sepeda biar kuat itu butuh volume dan frekuensi yang tidak kecil. Kilometer yang banyak, EG (_elevation gain_) yang banyak, dan rutin dan konsisten. Tapi karena keterbatasan waktu, aku butuh latian yang efektif. Aku nggak pengen buang-buang waktu dan capek dengan latian yang nggak bikin aku tambah “strong”.
-
-Aku perlu “program” latian yang efektif. “Program” latian yg efektif adalah latian-latian yang berkualitas. Untuk melihat sesuatu itu berkualitas apa enggak, perlu ada ukurannya.
-
-### The metrics
-
-Kalo kita buka Strava, masing-masing kita ada PR (_personal record_) untuk berbagai segments yang pernah kita lalui. Tapi PR segments itu bukan ukuran. PR dan avg speed adalah buah hasil latian, bukan ukuran latiannya.
-
-Jadi apa yang diukur?
-
-Ada beberapa cara untuk melihat progress latian. Kebetulan yang jadi acuanku adalah power dibandingkan dengan HR (_heart-rate_). Contohnya begini. Misal hari ini, sebuah segment aku lalui dengan power 150W dan HR 150bpm. Sebulan kemudian, kalau latihannya berprogress, di segment yang sama dengan kondisi yang mirip, dengan power 150W, HR mungkin udah turun jadi 145bpm. Artinya kita menghasilkan power yang sama dengan "effort" yang kita rasakan lebih rendah.
-
-### The upgrades
-
-Dan dari situlah aku bisa meyakinkan diri buat “upgrade” bukan ke sepeda, tapi fokus untuk “upgrade” ke mesinnya dengan jalan mengalihkan budget ke alat-alat yang bisa mengukur latian-latianku secara efektif. Ada beberapa tool “upgrade” yang mendukung latian.
-
-- HRM — ini udah sangat umum. Buat monitor HR saat kita ride.
-- Smartwatch — buat ngukur resting HR. Karena resting HR itu adalah salah satu indikator utama level fitness seseorang.
-- Smart trainer — biar latihan lebih fleksibel terhadap cuaca dan jadwal, dan buat ngelakuin beberapa latian yang susah dilakukan di outdoor terutama latian seperti intervals, cadence, dan sustained tempo.
-- Power meter — Untuk mengukur secara objective dari power yang kita keluarkan, untuk mengukur hasil latian, dan untuk pacing.
-
-Nah dari situ tinggal rutin beberapa kali seminggu dan antara 30 menit sampai 2 jam atau lebih (isi dari programnya itu sendiri ada ceritanya tersendiri) sambil direview metrik-metriknya untuk melihat perkembangan.
-
----
-
-## First ride to Klangon: pacing by power
-
-Balik ke topik utama kita.
-
-Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku untuk bisa ride non-stop Prambanan -- Klangon. 
+Tujuan dari ride ini adalah validasi. Validasi apakah aku bisa planning pacing berdasar data ride pembanding dan kemampuan fisikku supaya aku bisa mencapai Klangon tanpa sama sekali butuh istirahat di tengah perjalanan.
 
 ### Facts
 
@@ -85,7 +41,7 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 ### Analysis results
 
 - Berdasar analisa ride Eenk, semua masih achievable buatku buat non-stop dari Prambanan ke Klangon. Tapi aku kudu cari pace yang tepat buatku.
-- Dengan FTP (_functional threshold power_) ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu kira-kira cuma cukup untuk satu jam. Aku kudu turunin target avg power (pace).
+- Dengan FTP (_functional threshold power_) ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu cuma cukup untuk sekitar satu jam. Aku kudu turunin target avg power (pace).
 - Dengan sedikit ngawang, aku kira-kira bahwa aku bisa main di power 140--150W dengan reserve power untuk akhir-akhir yang ada gradient berat yang kira-kira butuh 170--200W hanya untuk bisa gerak.
 
 ### Ride result
@@ -106,13 +62,11 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 
 ---
 
-## Closing
+### Closing
 
-Apakah aku bisa melakukannya tanpa pacing berdasar power?
+Dengan analisa ringan berdasar power dari ride lain, kita bisa atur pacing kita sesuai target jarak, di rentang mana kita harus memainkan power kita.
 
-Aku nggak yakin. Karena pacing berdasar power itu, setelah yang aku rasakan, membuatku jadi lebih terkontrol dalam segi pacing. Tidak terpengaruh gradient maupun goweser lain. Ini terbukti dari kenyataannya di lapangan, terjadi beberapa kali ~~hampir~~ kecolongan salah power.
-
-Memang, cara paling tepat untuk pacing gowes adalah by power, bukan by speed ataupun by HR.
+Analisa seperti ini bisa diterapkan juga ke balapan, dengan level power yang berbeda, variabel yang lebih lengkap, dan perhitungan yang lebih kompleks tentunya.
 
 ![Last-corner](images/best-view.jpg#center "Ciao!!!")
 
