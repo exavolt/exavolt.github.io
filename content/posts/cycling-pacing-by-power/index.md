@@ -56,7 +56,7 @@ Dan dari situlah aku bisa meyakinkan diri buat “upgrade” bukan ke sepeda, ta
 - HRM — ini udah sangat umum. Buat monitor HR saat kita ride.
 - Smartwatch — buat ngukur resting HR. Karena resting HR itu adalah salah satu indikator utama level fitness seseorang.
 - Smart trainer — biar latihan lebih fleksibel terhadap cuaca dan jadwal, dan buat ngelakuin beberapa latian yang susah dilakukan di outdoor terutama latian seperti intervals, cadence, dan sustained tempo.
-- Power meter — terutama buat di outdoor. Untuk mengukur secara objective apakah latian udah membuahkan hasil.
+- Power meter — Untuk mengukur secara objective dari power yang kita keluarkan, untuk mengukur hasil latian, dan untuk pacing.
 
 Nah dari situ tinggal rutin beberapa kali seminggu dan antara 30 menit sampai 2 jam atau lebih (isi dari programnya itu sendiri ada ceritanya tersendiri) sambil direview metrik-metriknya untuk melihat perkembangan.
 
