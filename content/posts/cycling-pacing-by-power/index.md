@@ -116,3 +116,5 @@ Mungkin bisa. Tapi, power meter ini terbukti sangat membantu untuk tau kapan men
 _Terima kasih buat [eenk](https://x.com/hendriansah) yang udah bantu provide data-datanya dan, tentu saja, menemani dan menyemangati selama ride (ya... beberapa kali aku ditinggal ke depan buat ngudud)._
 
 _Terima kasih buat [Amar Muammar](https://www.strava.com/athletes/41964148) dan [Bogipower](https://www.strava.com/athletes/23853365) yang sudah memberi masukan terhadap tulisan ini._
+
+_Update 8 Juli 2024: pengen hitungan yang "pro"? Bisa coba pake [ini](https://wwww.bestbikessplit.com/) (bukan endorse). Shout out to [Hendy Saputra](https://www.strava.com/athletes/27389527) yang udah nunjukin._ 
