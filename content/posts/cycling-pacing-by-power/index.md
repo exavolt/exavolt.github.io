@@ -78,7 +78,8 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 
 - Berawal bingung di Jum’at siang, Sabtu mau ke mana → Eenk suggest ke Klangon
 - Aku minta Eenk nunjukin link Strava ke ride-ride dia ke Klangon karena dia pake power meter dan berat badan kita mirip-mirip — overall mungkin beda 2--4 kg.
-- Yang pertama aku analisa adalah apakah memungkinkan apa enggak secara umum. Berapa avg power dan durasinya. Eenk, untuk segment Prambanan -- Klangon butuh avg power 176w dengan durasi 1,5 jam.
+- Yang pertama aku analisa adalah apakah memungkinkan apa enggak secara umum. Berapa avg power dan durasinya. Eenk, untuk segment [Prambanan - Klangon Endurance Climb](https://www.strava.com/segments/19729302) butuh avg power 176w dengan durasi 1,5 jam.
+  ![Eenk's PR](images/eenks-pr.jpg#center)
 - Yang selanjutnya aku analisa adalah apakah wkg-ku cukup untuk climb-climb gradient tinggi yang ada di rute.
 
 ### Analysis results
@@ -90,16 +91,18 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 ### Ride result
 
 - Finish full non-stop dari ring-road Maguwo sampe ke Klangon --- dengan sedikit distraksi ketemu ~~Bogi di antara~~ peserta KAI100
-- Kaki udah menjerit-jerit di portal Klangon tapi masih bisa dipaksa buat sampe tulisan besar "KLANGON"
+- Kaki udah mulai nggak mau ngeluarin power di portal Klangon tapi masih bisa dipaksa buat sampe tulisan besar "KLANGON"
+
+![Foto yang harus](images/finish.jpg#center)
 
 ### Some stats
 
-- Segment New Road - Butuh Market: avg 155W 36:04
-- Segment Butuh Market to Klangon: avg 135W 1:13:51
-- Segment RR Maguwo - Klangon: avg 140W 2:21:55
-- Segment Prambanan - Klangon: avg **141W** 1:57:43. **Tepat sesuai estimasi (!!!)**
+- Segment [RR Maguwo - Klangon](https://www.strava.com/segments/32908149): avg 140W 2:21:55
+  ![RR Maguwo - Klangon](images/rr_maguwo-klangon.png#center)
+- Segment [Prambanan - Klangon Endurance Climb](https://www.strava.com/segments/19729302): avg **141W** 1:57:43. **Tepat sesuai estimasi (!!!)**
+  ![Prambanan - Klangon Endurance Climb](images/prambanan-klangon.png#center)
 
-![.](images/so_good.jpg)
+![.](images/so_good.jpg#center)
 
 ---
 
@@ -109,13 +112,13 @@ Apakah aku bisa melakukannya tanpa pacing berdasar power?
 
 Aku nggak yakin. Karena pacing berdasar power itu, setelah yang aku rasakan, membuatku jadi lebih terkontrol dalam segi pacing. Tidak terpengaruh gradient maupun goweser lain. Ini terbukti dari kenyataannya di lapangan, terjadi beberapa kali ~~hampir~~ kecolongan salah power.
 
-Bagaimanapun, cara paling tepat untuk pacing gowes adalah by power, bukan by speed ataupun by HR.
+Memang, cara paling tepat untuk pacing gowes adalah by power, bukan by speed ataupun by HR.
 
-![Last-corner](images/best-view.jpg "Ciao!! 📸 eenk")
+![Last-corner](images/best-view.jpg#center "Ciao!!!")
 
 ---
 
-_Terima kasih buat [eenk](https://x.com/hendriansah) yang udah bantu provide data-datanya dan, tentu saja, menemani dan menyemangati selama ride (ya... beberapa kali aku ditinggal ke depan buat ngudud)._
+_Terima kasih buat [eenk](https://x.com/hendriansah) yang udah bantu provide data-datanya, foto-foto, dan, tentu saja, menemani dan menyemangati selama ride (ya... beberapa kali aku ditinggal ke depan buat ngudud)._
 
 _Terima kasih buat [Amar Muammar](https://www.strava.com/athletes/41964148) dan [Bogipower](https://www.strava.com/athletes/23853365) yang sudah memberi masukan terhadap tulisan ini._
 
