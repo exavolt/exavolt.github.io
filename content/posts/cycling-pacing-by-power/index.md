@@ -93,7 +93,7 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 - Finish full non-stop dari ring-road Maguwo sampe ke Klangon --- dengan sedikit distraksi ketemu ~~Bogi di antara~~ peserta KAI100
 - Kaki udah mulai nggak mau ngeluarin power di portal Klangon tapi masih bisa dipaksa buat sampe tulisan besar "KLANGON"
 
-![Foto yang harus](images/finish.jpg#center)
+![Foto yang harus](images/finish.jpg#center "Merapi sedang malu. Menutupi dirinya dengan awan.")
 
 ### Some stats
 
