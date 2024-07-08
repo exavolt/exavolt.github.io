@@ -33,21 +33,21 @@ Sebelumnya, ini beberapa hal tentang aku:
 
 Sejak mulai sepedaan lagi, aku bikin list yang berisi spot-spot yang pengen aku samperin pake sepeda, yang aku kompilasi dari hasil kepo di Strava dan Instagram. Dan juga ada hal-hal lain yang pengen aku lakuin dengan sepeda terutama long ride antar kota (ultra!).
 
-### The need for power
+### The need for performance
 
-Satu hal yang aku sadari setelah mulai menjalani sepedaan lagi adalah, bahwa aku butuh kuat di atas sepeda biar bisa eksplorasi. Aku butuh kuat karena banyak medan yang menantang. Aku butuh kuat supaya siap menghadapi berbagai medan di rute yang dilalui. Sukur-sukur bisa nggak full effort ketika ngelakuin eksplorasi --- biar bisa menikmati eksplorasinya pastinya.
+Satu hal yang aku sadari setelah mulai menjalani sepedaan lagi adalah, bahwa aku butuh kuat dan tahan di atas sepeda biar bisa eksplorasi. Aku butuh kuat karena ketika ekplorasi, tidak jarang kita menemui medan yang menantang. Sukur-sukur bisa nggak full effort ketika ngelakuin eksplorasi --- biar bisa menikmati eksplorasinya pastinya.
 
-Aku menyadari bahwa latian sepeda biar kuat itu butuh volume dan frekuensi yang tidak kecil. Kilometer yang banyak, EG yang banyak, dan rutin dan konsisten. Tapi karena keterbatasan waktu, aku butuh latian yang efektif. Aku nggak pengen buang-buang waktu dan capek kalo latian tersebut nggak bikin aku tambah “strong” (i.e., junk miles).
+Aku menyadari bahwa latian sepeda biar kuat itu butuh volume dan frekuensi yang tidak kecil. Kilometer yang banyak, EG (_elevation gain_) yang banyak, dan rutin dan konsisten. Tapi karena keterbatasan waktu, aku butuh latian yang efektif. Aku nggak pengen buang-buang waktu dan capek dengan latian yang nggak bikin aku tambah “strong”.
 
 Aku perlu “program” latian yang efektif. “Program” latian yg efektif adalah latian-latian yang berkualitas. Untuk melihat sesuatu itu berkualitas apa enggak, perlu ada ukurannya.
 
 ### The metrics
 
-Kalo kita buka Strava, masing-masing kita ada PR untuk berbagai segments yang pernah kita lalui. Tapi PR segments itu bukan ukuran. PR dan avg speed adalah buah hasil latian, bukan ukuran latiannya.
+Kalo kita buka Strava, masing-masing kita ada PR (_personal record_) untuk berbagai segments yang pernah kita lalui. Tapi PR segments itu bukan ukuran. PR dan avg speed adalah buah hasil latian, bukan ukuran latiannya.
 
 Jadi apa yang diukur?
 
-Ada beberapa cara untuk melihat progress latian. Kebetulan yang jadi acuanku adalah power dibandingkan dengan HR. Contohnya begini. Misal hari ini, disebuah segment, power 200W, HR 170bpm. Sebulan kemudian, kalau latihannya berprogress, di segment yang sama dengan kondisi yang mirip, dengan power 200W, HR mungkin udah turun jadi 165bpm. Artinya kita menghasilkan power yang sama dengan "effort" yang kita rasakan lebih rendah.
+Ada beberapa cara untuk melihat progress latian. Kebetulan yang jadi acuanku adalah power dibandingkan dengan HR (_heart-rate_). Contohnya begini. Misal hari ini, sebuah segment aku lalui dengan power 150W dan HR 150bpm. Sebulan kemudian, kalau latihannya berprogress, di segment yang sama dengan kondisi yang mirip, dengan power 150W, HR mungkin udah turun jadi 145bpm. Artinya kita menghasilkan power yang sama dengan "effort" yang kita rasakan lebih rendah.
 
 ### The upgrades
 
@@ -78,14 +78,14 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 
 - Berawal bingung di Jum’at siang, Sabtu mau ke mana → Eenk suggest ke Klangon
 - Aku minta Eenk nunjukin link Strava ke ride-ride dia ke Klangon karena dia pake power meter dan berat badan kita mirip-mirip — overall mungkin beda 2--4 kg.
-- Yang pertama aku analisa adalah apakah memungkinkan apa enggak secara umum. Berapa avg power dan durasinya. Eenk, untuk segment [Prambanan - Klangon Endurance Climb](https://www.strava.com/segments/19729302) butuh avg power 176w dengan durasi 1,5 jam.
+- Yang pertama aku analisa adalah apakah memungkinkan apa enggak secara umum. Berapa avg power dan durasinya. Eenk, untuk segment [Prambanan - Klangon Endurance Climb](https://www.strava.com/segments/19729302) butuh avg power 176W dengan durasi 1,5 jam.
   ![Eenk's PR](images/eenks-pr.jpg#center)
 - Yang selanjutnya aku analisa adalah apakah wkg-ku cukup untuk climb-climb gradient tinggi yang ada di rute.
 
 ### Analysis results
 
 - Berdasar analisa ride Eenk, semua masih achievable buatku buat non-stop dari Prambanan ke Klangon. Tapi aku kudu cari pace yang tepat buatku.
-- Dengan FTP ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu kira-kira cuma cukup untuk satu jam. Aku kudu turunin target avg power (pace).
+- Dengan FTP (_functional threshold power_) ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu kira-kira cuma cukup untuk satu jam. Aku kudu turunin target avg power (pace).
 - Dengan sedikit ngawang, aku kira-kira bahwa aku bisa main di power 140--150W dengan reserve power untuk akhir-akhir yang ada gradient berat yang kira-kira butuh 170--200W hanya untuk bisa gerak.
 
 ### Ride result
@@ -122,4 +122,4 @@ _Terima kasih buat [eenk](https://x.com/hendriansah) yang udah bantu provide dat
 
 _Terima kasih buat [Amar Muammar](https://www.strava.com/athletes/41964148) dan [Bogipower](https://www.strava.com/athletes/23853365) yang sudah memberi masukan terhadap tulisan ini._
 
-_Update 8 Juli 2024: pengen hitungan yang "pro"? Bisa coba pake [ini](https://wwww.bestbikessplit.com/) (bukan endorse). Shout out to [Hendy Saputra](https://www.strava.com/athletes/27389527) yang udah nunjukin._ 
+_Update 8 Juli 2024: kalo butuh hitungan yang "pro", bisa coba pake [ini](https://wwww.bestbikessplit.com/) (bukan endorse). Shout out to [Hendy Saputra](https://www.strava.com/athletes/27389527) yang udah nunjukin._ 
