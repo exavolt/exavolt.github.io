@@ -27,8 +27,8 @@ Tapi yang buatku, yang kulakukan kemaren itu nggak gampang, buatku ya, dan butuh
 Sebelumnya, ini beberapa hal tentang aku:
 
 - Aku mulai gowes lagi November 2020. Sebelumnya udah pernah rutin sepedaan di tahun 2011--2012 (ingat Endomondo?) tapi terus terlupakan.
-- Usiaku hampir dan udah 40. Sedikit udah lewat masa pertumbuhan. Improveku lebih lambat dari mereka yang masih ~~bocah~~ muda.
-- Aku seorang karyawan yang, walaupun waktu cukup fleksibel, tetap terbatas. Ditambah kewajiban sebagai kepala rumah tangga yang karena situasi dan kondisi, nggak bisa semaunya minggat.
+- Usiaku udah lewat masa pertumbuhan. Improveku lebih lambat dari mereka yang masih ~~bocah~~ muda.
+- Aku seorang karyawan dan ditambah kewajiban sebagai kepala rumah tangga jadi nggak bisa semaunya ~~minggat~~ gowes lama.
 - Tujuan gowes buatku adalah sebagai sarana eksplorasi, refreshing, dan ningkatin baseline fitness. Tapi ternyata dapat benefit lain setelah banyak gowes: banyak ketemu teman baru.
 
 Sejak mulai sepedaan lagi, aku bikin list yang berisi spot-spot yang pengen aku samperin pake sepeda, yang aku kompilasi dari hasil kepo di Strava dan Instagram. Dan juga ada hal-hal lain yang pengen aku lakuin dengan sepeda terutama long ride antar kota (ultra!).
