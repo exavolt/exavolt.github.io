@@ -105,11 +105,13 @@ Di sini aku akan lebih ke bercerita tentang bagaimana aku planning pacing-ku unt
 
 ## Closing
 
-Apakah bisa aku melakukannya tanpa power meter?
+Apakah aku bisa melakukannya tanpa pacing berdasar power?
 
-Mungkin bisa. Tapi, power meter ini terbukti sangat membantu untuk tau kapan menahan dan kapan untuk nge-push karena, dari kenyataannya di lapangan, terjadi beberapa kali ~~hampir~~ kecolongan salah power.
+Aku nggak yakin. Karena pacing berdasar power itu, setelah yang aku rasakan, membuatku jadi lebih terkontrol dalam segi pacing. Tidak terpengaruh gradient maupun goweser lain. Ini terbukti dari kenyataannya di lapangan, terjadi beberapa kali ~~hampir~~ kecolongan salah power.
 
-![Last-corner](images/best-view.jpg "Ciao! 📸 eenk")
+Bagaimanapun, cara paling tepat untuk pacing gowes adalah by power, bukan by speed ataupun by HR.
+
+![Last-corner](images/best-view.jpg "Ciao!! 📸 eenk")
 
 ---
 
