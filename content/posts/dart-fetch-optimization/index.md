@@ -25,7 +25,7 @@ class ProductService {
 In various places, we can call the method `fetchProducts` as:
 
 ```dart
-productService.instance.fetchProducts().then((v) { ... });
+ProductService.instance.fetchProducts().then((v) { ... });
 ```
 
 The problem is that this method might be called from various places simultaneously, including in multiple `FutureBuilder`s for example, which will be wasting bandwidth and unnecessarily loading the server, and potentially slowing the app down.
@@ -62,6 +62,6 @@ class ProductService {
 }
 ```
 
-Now, any simultaneous call to `productService.instance.fetchProducts()` will not create multiple HTTP request and each caller will receive the same result.
+Now, any simultaneous call to `ProductService.instance.fetchProducts()` will not create multiple HTTP request and each caller will receive the same result.
 
 Other than for HTTP fetching, this "pattern" can also be applied to functions that do heavy computations too.
