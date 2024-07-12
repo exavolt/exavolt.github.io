@@ -28,7 +28,7 @@ Untuk pembuktian ini, aku menerapkan di sebuah ride dengan tujuan yang aku belum
 
 - Aku belum pernah gowes ke Klangon sama sekali. Udah pernah ke Klangon pake mobil jadi udah punya gambaran kaya gimana beratnya kalo pake sepeda.
 - Dari 4 _"summits"_ lereng selatan Merapi, belum ada satu pun yang aku pernah gowes secara non-stop. Terakhir ke Goa Jepang beberapa bulan lalu dan itu belum non-stop.
-- FTP (_functional threshold power_) ku cuma 170an Watt dengan berat badan 69--70 kg ⇒ 2,4 W/kg (terakhir test awal Juni 2022)
+- FTP (_functional threshold power_) ku cuma 170an Watt (terakhir test awal Juni 2022) dengan berat badan 69--70 kg ⇒ 2,4 W/kg (buat perbandingan, peserta Tour de France ada yang sampai [7 W/kg](https://velo.outsideonline.com/road/road-racing/tour-de-france/the-power-numbers-at-this-years-tour-de-france-are-the-highest-in-the-modern-era-of-cycling/))
 
 ### Gathering data and analyzing them
 
@@ -40,9 +40,10 @@ Untuk pembuktian ini, aku menerapkan di sebuah ride dengan tujuan yang aku belum
 
 ### Analysis results
 
-- Berdasar analisa ride Eenk, semua masih achievable buatku buat non-stop dari Prambanan ke Klangon. Tapi aku kudu cari pace yang tepat buatku.
+- Berdasar analisa ride Eenk, semua masih memungkinkan buatku buat non-stop dari Prambanan ke Klangon. Tapi aku kudu cari pace yang tepat buatku.
 - Dengan FTP ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu cuma cukup untuk sekitar satu jam. Aku kudu turunin target avg power (pace).
-- Dengan sedikit ngawang, aku kira-kira bahwa aku bisa main di power **140--150W** dengan reserve power untuk akhir-akhir yang ada gradient berat yang kira-kira butuh 150--300W hanya untuk bisa gerak maju.
+- Dengan asumsi FTP Eenk di 200an Watt, yang artinya Eenk menggunakan sekitar 80% dari FTP-nya. Dengan hitungan sederhana "80% dari FTP" ini, aku ambil rentang **140--150W**.
+- Di beberapa titik menjelang finish terdapat climb-climb dengan gradient besar yang kira-kira butuh 150--300W hanya untuk bisa gerak maju. Artinya aku harus cukup tertib dalam menjaga power di awal supaya masih punya cadangan power untuk bisa melewati climb-climb ini tanpa nuntun.
 
 ### Ride result
 
@@ -64,11 +65,11 @@ Untuk pembuktian ini, aku menerapkan di sebuah ride dengan tujuan yang aku belum
 
 ### Closing
 
-Dengan analisa ringan berdasar power dari ride lain, kita bisa atur pacing kita sesuai performa kita dan target jarak, di rentang mana kita harus memainkan power kita.
+Dengan analisa ringan berdasar power dari ride lain, kita bisa atur pacing kita sesuai tingkat performa kita dan target jarak, di rentang mana kita harus memainkan power kita.
 
-Mungkin ada yang komentar "Gowes ya tinggal dipancal." Tidak salah, dan aku setuju dengan komentar tersebut. Cuma kepuasan orang itu beda-beda. Gowes yang pas sesuai kemampuan dan tidak terlalu memaksa itu juga bisa jadi kepuasan tersendiri.
+Mungkin ada yang komentar "Gowes ya tinggal dipancal." Tidak salah, dan aku setuju dengan komentar tersebut karena jangan sampai analisis menghalangi gowesnya itu sendiri. Namun yang perlu kita ingat bahwa kepuasan orang itu beda-beda. Penerapan analisis yang tepat itu merupakan kepuasan tersendiri, at least buatku.
 
-Analisa seperti ini bisa diterapkan juga ke balapan, dengan level power yang berbeda, variabel yang lebih lengkap, dan perhitungan yang lebih kompleks tentunya.
+Analisa seperti ini bisa diterapkan untuk pacing saat balapan, dengan level power yang berbeda, variabel yang lebih lengkap, dan perhitungan yang lebih kompleks tentunya.
 
 ![Last-corner](images/best-view.jpg#center "Ciao!!!")
 
