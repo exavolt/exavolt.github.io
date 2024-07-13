@@ -41,7 +41,7 @@ Untuk pembuktian ini, aku menerapkan di sebuah ride dengan tujuan yang aku belum
 
 - Berdasar analisa ride Eenk, semua masih memungkinkan buatku buat non-stop dari Prambanan ke Klangon. Tapi aku kudu cari pace yang tepat buatku.
 - Dengan FTP ku yang 170an Watt, it’s impossible kalo aku target 1,5 jam dengan avg power 176W kaya Eenk, karena itu over FTP ku dan dengan durasi lebih dari satu jam. Sementara kita tau bahwa nahan power di FTP itu cuma cukup untuk sekitar satu jam. Aku kudu turunin target avg power (pace).
-- Dengan asumsi FTP Eenk di 200an Watt, yang artinya Eenk menggunakan sekitar 80% dari FTP-nya. Dengan hitungan sederhana "80% dari FTP" ini, aku ambil rentang **140--150W**. Aku harus sering-sering monitor power output ku melalui cyclo sehingga tidak terlalu jauh dari rentang ini.
+- Dengan asumsi FTP Eenk di 200an Watt, yang artinya Eenk menggunakan sekitar 80% dari FTP-nya. Dengan hitungan sederhana "80% dari FTP" ini, aku ambil rentang **140--150W**. Aku harus sering-sering monitor power output ku melalui cyclocomp sehingga tidak terlalu jauh dari rentang ini.
 - Di beberapa titik menjelang finish terdapat climb-climb dengan gradient besar yang kira-kira butuh 150--300W hanya untuk bisa gerak maju. Artinya aku harus cukup tertib dalam menjaga power di awal supaya masih punya cadangan energi untuk bisa melewati climb-climb ini tanpa nuntun.
 
 ### Ride result
