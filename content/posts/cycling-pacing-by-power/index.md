@@ -68,7 +68,7 @@ Dengan analisa ringan berdasar power dari ride lain, kita bisa atur pacing kita 
 
 Mungkin ada yang komentar "Gowes ya tinggal dipancal." Tidak salah, dan aku setuju dengan komentar tersebut karena jangan sampai analisis menghalangi gowesnya itu sendiri. Namun yang perlu kita ingat bahwa kepuasan orang itu beda-beda. Penerapan analisis untuk planning yang tepat itu merupakan kepuasan tersendiri.
 
-Analisa yang aku terapkan masih sangat sederhana. Tapi secara konsep, analisa seperti ini bisa dikembangkan untuk pacing saat balapan -- dengan level power yang berbeda, variabel yang lebih lengkap, dan perhitungan yang lebih kompleks tentunya.
+Analisa yang aku terapkan masih sangat sederhana. Tapi secara konsep, analisa seperti ini bisa dikembangkan untuk pacing saat balapan atau long-ride macam Audax -- dengan level power yang berbeda, variabel yang lebih lengkap, dan perhitungan yang lebih kompleks tentunya.
 
 ![Last-corner](images/best-view.jpg#center "Ciao!!!")
 
